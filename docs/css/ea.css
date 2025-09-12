@@ -23,7 +23,7 @@ B.red {
 BODY {
 	background-color: #EEEEEE;
 	font-family: "Open Sans", "Arial", sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
@@ -125,7 +125,7 @@ P {
 	/* font-family: "Verdana", sans-serif; */
 	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	/* font-size: 70%; */
-	font-size: 16px;
+	font-size: 14px;
 	/* line-height: 12pt; */
 	line-height: 1.5;
 	margin: 10px 10px 0px 10px;
@@ -141,7 +141,7 @@ PRE {
 TD {
 	color: #000000;
 	/* font-size: 8pt */
-	font-size: 16px;
+	font-size: 14px;
 }
 UL {
 	color: #000000;
@@ -402,8 +402,7 @@ UL {
 	width: 130px;
 }
 .ObjectDetailsValue {
-	/* line-height: 15px; */
-	line-height: 20px;
+	line-height: 15px;
 	color: #333333;
 	vertical-align: top;
 }
@@ -639,8 +638,7 @@ UL {
 	border-radius: 0px;
 	margin-top: 5px;
 	height: 100%;
-	/* width: 350px; */
-	width: 450px;
+	width: 350px;
 	padding-left: 15px;
 	padding-top: 15px;
 	vertical-align: top;
@@ -682,7 +680,7 @@ body{
 	min-width: 65%;
 	overflow: auto;
 	height: auto;
-	max-height: 800px;
+	/* max-height: 800px; */
 }
 
 .blank_diagram{
