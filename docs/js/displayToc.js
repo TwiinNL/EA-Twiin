@@ -105,24 +105,12 @@ function mapRectangleMouseOver(sender) {
 
         var array = sender.coords.split(',');
 
-        var $panel = $(".previewPanel");
-        $panel.html("").append(notes);
-
-        // tijdelijk zichtbaar maken om hoogte te meten
-        $panel.css({
-            "visibility": "hidden",
-            "display": "block"
-        });
-
-        var panelHeight = $panel.outerHeight();
-
-        // positie boven de shape
-        $panel.css({
-            "top": (Number(array[1]) - panelHeight - 10) + "px",
-            "left": (Number(array[2]) - 400) + "px",
-            "visibility": "visible",
-            "display": "none"
-        }).stop(true, true).fadeIn(400);
+        $(".previewPanel").html("");
+        $(".previewPanel").append(notes);
+        
+        $(".previewPanel").css("margin-top", (Number(array[1]) - 100) + "px");
+        $(".previewPanel").css("margin-left", (Number(array[2]) - 400) + "px");
+        $(".previewPanel").stop(true, true).fadeIn(400); // stop oude animaties, dan fade in
     });
 
 }
