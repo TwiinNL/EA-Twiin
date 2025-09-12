@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1", "1", "Structuur afsprakenstelsel", "EARoot/EA1/EA8.htm", "4.png", "", "", "{AA8589F5-4D08-4f0c-B88D-5C4EA8055CD7}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Elementen", "EARoot/EA2/EA9.htm", "4.png", "", "", "{2B13A80B-5F84-47dd-A634-3F74B75AC397}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "", "Views - Fysieke architectuur", "EARoot/EA3/EA124.htm", "4.png", "", "", "{95597103-0A35-4dd4-B942-105D31AF4AFD}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Hulpmiddelen", "EARoot/EA4/EA125.htm", "4.png", "", "", "{994AF4E8-D4C6-4a27-9F5A-0B770B1B5CA8}", "Package");
