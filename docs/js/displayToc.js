@@ -108,8 +108,8 @@ function mapRectangleMouseOver(sender) {
         $(".previewPanel").html("");
         $(".previewPanel").append(notes);
         
-        $(".previewPanel").css("margin-top", (Number(array[1]) - 100) + "px");
-        $(".previewPanel").css("margin-left", (Number(array[2]) - 400) + "px");
+        $(".previewPanel").css("margin-top", (Number(array[1]) - 5) + "px");
+        $(".previewPanel").css("margin-left", (Number(array[2]) - 410) + "px");
         $(".previewPanel").stop(true, true).fadeIn(400); // stop oude animaties, dan fade in
     });
 
