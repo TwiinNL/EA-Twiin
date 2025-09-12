@@ -718,11 +718,11 @@ div{
 	position:absolute;
 	overflow: auto;   
 	width:400px;
-	height:50px;
+	height:100px;
 	border: 1px solid grey;
 	border-radius: 0px;
 	padding: 5px 5px 5px 5px;
-	background-color: #FFEB3B;
+	background-color: #F8F7F3;
 }
 
 /* EIND: TOOLTIP CODE */
