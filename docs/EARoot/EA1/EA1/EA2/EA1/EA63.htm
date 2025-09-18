@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Twiin Afsprakenstelsel 1.3.x</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<!-- START: TOOLTIP CODE -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js"></script>
+<!-- EIND: TOOLTIP CODE -->
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+		{			
+			// START: TOOLTIP CODE
+			$("area").mouseover(function() { mapRectangleMouseOver(this); } );
+			$("area").mouseout(function() { mapRectangleMouseOut(this); } );
+			// EIND: TOOLTIP CODE
+			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1>Twiin Enterprise Architectuur werkomgeving</h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Architectuur-Twiin</a> / <a href="../../../EA3.htm">EA-Twiin 1.3.x</a> / <a href="../../EA6.htm">Elementen</a> / <a href="../EA51.htm">Business domein</a> / <a href="EA67.htm">Het afsprakenstelsel</a> / <a href="EA68.htm">Twiin Afsprakenstelsel 1.3.x</a> / <a href="EA63.htm">Twiin Afsprakenstelsel 1.3.x</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<!-- <div class="projectBrowserTitle">Project: </div> -->
+						<div class="projectBrowserTitle"></div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt=""/> <a href="EA63.htm">Twiin Afsprakenstelsel 1.3.x</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA70.htm">Generiek deel Twiin Afsprakenstelsel</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA71.htm">Twiin Implementatiewijzer Zorgtoepassingen</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<!-- CUSTOM -->
+	<div class=previewPanel></div>
+	<div class="ObjectTitle">Twiin Afsprakenstelsel 1.3.x</div>
+	<div class="ObjectDetailsNotes">Overzicht van de onderdelen van het Twiin Afsprakenstelsel met een verdiepte weergave van het generieke deel.&lt;br/&gt;</div>
+
+	<hr>
+	<!-- END CUSTOM -->
+	<div class=diagram_image> 
+<img src="EA64.png" usemap="#EA64" border="0" />
+
+<MAP NAME="EA64">
+<area shape="rect" coords="1247,723,1337,793" href="EA157.htm" target="_self">
+<area shape="rect" coords="1247,636,1337,706" href="EA156.htm" target="_self">
+<area shape="rect" coords="1247,549,1337,622" href="EA155.htm" target="_self">
+<area shape="rect" coords="1247,462,1337,535" href="EA154.htm" target="_self">
+<area shape="rect" coords="1247,375,1337,448" href="EA153.htm" target="_self">
+<area shape="rect" coords="1222,279,1312,349" href="EA81.htm" target="_self">
+<area shape="rect" coords="1114,636,1204,706" href="EA152.htm" target="_self">
+<area shape="rect" coords="1114,549,1204,619" href="EA151.htm" target="_self">
+<area shape="rect" coords="1114,462,1204,535" href="EA150.htm" target="_self">
+<area shape="rect" coords="1114,375,1204,448" href="EA149.htm" target="_self">
+<area shape="rect" coords="1088,279,1178,349" href="EA80.htm" target="_self">
+<area shape="rect" coords="978,636,1068,706" href="EA161.htm" target="_self">
+<area shape="rect" coords="978,549,1068,619" href="EA160.htm" target="_self">
+<area shape="rect" coords="978,462,1068,532" href="EA159.htm" target="_self">
+<area shape="rect" coords="978,375,1068,445" href="EA158.htm" target="_self">
+<area shape="rect" coords="954,279,1044,349" href="EA79.htm" target="_self">
+<area shape="rect" coords="820,279,910,349" href="EA78.htm" target="_self">
+<area shape="rect" coords="714,810,804,880" href="EA104.htm" target="_self">
+<area shape="rect" coords="714,723,804,793" href="EA103.htm" target="_self">
+<area shape="rect" coords="714,636,804,706" href="EA102.htm" target="_self">
+<area shape="rect" coords="714,549,804,619" href="EA101.htm" target="_self">
+<area shape="rect" coords="714,462,804,532" href="EA100.htm" target="_self">
+<area shape="rect" coords="714,375,804,445" href="EA99.htm" target="_self">
+<area shape="rect" coords="686,279,776,349" href="EA77.htm" target="_self">
+<area shape="rect" coords="578,897,668,967" href="EA173.htm" target="_self">
+<area shape="rect" coords="578,810,668,880" href="EA172.htm" target="_self">
+<area shape="rect" coords="578,723,668,793" href="EA171.htm" target="_self">
+<area shape="rect" coords="578,636,668,706" href="EA170.htm" target="_self">
+<area shape="rect" coords="578,549,668,619" href="EA169.htm" target="_self">
+<area shape="rect" coords="578,462,668,532" href="EA168.htm" target="_self">
+<area shape="rect" coords="578,375,668,445" href="EA167.htm" target="_self">
+<area shape="rect" coords="552,278,642,348" href="EA76.htm" target="_self">
+<area shape="rect" coords="446,636,536,706" href="EA166.htm" target="_self">
+<area shape="rect" coords="446,549,536,619" href="EA165.htm" target="_self">
+<area shape="rect" coords="446,461,536,531" href="EA164.htm" target="_self">
+<area shape="rect" coords="446,375,536,445" href="EA163.htm" target="_self">
+<area shape="rect" coords="418,277,508,347" href="EA53.htm" target="_self">
+<area shape="rect" coords="308,375,398,445" href="EA88.htm" target="_self">
+<area shape="rect" coords="284,276,374,346" href="EA74.htm" target="_self">
+<area shape="rect" coords="41,549,131,619" href="EA87.htm" target="_self">
+<area shape="rect" coords="41,462,131,532" href="EA86.htm" target="_self">
+<area shape="rect" coords="41,375,131,445" href="EA85.htm" target="_self">
+<area shape="rect" coords="150,275,240,345" href="EA73.htm" target="_self">
+<area shape="rect" coords="16,275,106,345" href="EA72.htm" target="_self">
+<area shape="rect" coords="864,140,954,210" href="EA69.htm" target="_self">
+<area shape="rect" coords="676,140,766,210" href="EA65.htm" target="_self">
+<area shape="rect" coords="501,140,591,210" href="EA70.htm" target="_self">
+<area shape="rect" coords="708,10,798,80" href="EA68.htm" target="_self">
+</MAP>
+ </div>
+	<!-- <div class="ObjectTitle">Twiin Afsprakenstelsel 1.3.x : Business Layer diagram</div> -->
+		<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<!-- REMOVE
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">18-9-2025 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">18-9-2025 09:09:39</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.3</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{BA471C8C-B304-470a-B1CA-6C951B389694}</td>
+		</tr>
+		-->
+		<!-- CUSTOM -->
+		<hr>
+		<td width="15%" class="ObjectDetailsTopic">Gemaakt:</td>
+			<td width="85%" class="ObjectDetailsValue">18-9-2025 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Aangepast:</td>
+			<td width="85%" class="ObjectDetailsValue">18-9-2025 09:09:39</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Versie:</td>
+			<td width="85%" class="ObjectDetailsValue">1.3</td>
+		</tr>
+	</table>
+	<!-- CUSTOM -->
+	<!-- <hr>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td class="ObjectDetailsTopic">Reactie:</td>
+			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+Twiin Afsprakenstelsel 1.3.x&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
+		</tr>
+	<table> -->
+	<hr>
+	<!-- END CUSTOM -->
+	<!-- <div class="ObjectDetailsNotes">Overzicht van de onderdelen van het Twiin Afsprakenstelsel met een verdiepte weergave van het generieke deel.&lt;br/&gt;</div>
+ -->
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
