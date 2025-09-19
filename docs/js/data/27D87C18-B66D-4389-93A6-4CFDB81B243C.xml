@@ -1,3 +1,8 @@
-tocTab[tocTab.length] = new Array("0.1.1", "1", "01. Het Twiin Afsprakenstelsel", "EARoot/EA1/EA1/EA13.htm", "4.png", "", "", "{D7D136AE-4177-409a-896F-9960E85A991F}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2", "1", "02. Relatie tussen hoofdstukken", "EARoot/EA1/EA2/EA20.htm", "4.png", "", "", "{687B3C8C-EE40-4aee-89A9-C8FF54D754D1}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3", "", "03. Relatie tussen vereisten", "EARoot/EA1/EA3/EA21.htm", "4.png", "", "", "{27226A3F-794F-48ea-B44D-34B5FA0F7B08}", "Package");
+tocTab[tocTab.length] = new Array("0.1:1", "", "I01. Afsprakenstelsel", "EARoot/EA1/EA1.htm", "175.png", "239", "0", "", "Logical diagram0","{2EC99FE9-EB76-4136-91F6-837A12591136}");
+tocTab[tocTab.length] = new Array("0.1:2", "", "I02. Generiek deel", "EARoot/EA1/EA3.htm", "175.png", "305", "0", "", "Logical diagram0","{B5D691C3-F068-4c46-907A-23E539B2DF48}");
+tocTab[tocTab.length] = new Array("0.1:3", "", "I03. Implementatiewijzers", "EARoot/EA1/EA5.htm", "175.png", "376", "0", "", "Logical diagram0","{3006CC44-4733-4a91-82C5-F9FEF49B9469}");
+tocTab[tocTab.length] = new Array("0.1:4", "", "I04. Ontwikkelsupplement", "EARoot/EA1/EA7.htm", "175.png", "377", "0", "", "Logical diagram0","{D7ED0598-1211-4f32-B781-F4240988D81E}");
+tocTab[tocTab.length] = new Array("0.1:5", "", "S01. Principes", "EARoot/EA1/EA9.htm", "175.png", "378", "0", "", "Logical diagram0","{AC71717F-8D62-47ec-84BD-0D9169464C3C}");
+tocTab[tocTab.length] = new Array("0.1:6", "", "S02. Vertrouwensmodel", "EARoot/EA1/EA11.htm", "175.png", "379", "0", "", "Logical diagram0","{B881AF33-D778-4195-9E7C-CF63812BA7D1}");
+tocTab[tocTab.length] = new Array("0.1:7", "", "S03. Voorwaarden en Technische kern", "EARoot/EA1/EA13.htm", "175.png", "380", "0", "", "Logical diagram0","{DF2A48A1-CAFD-419b-9080-1983369F5686}");
+tocTab[tocTab.length] = new Array("0.1:8", "", "V01. Principes", "EARoot/EA1/EA15.htm", "175.png", "381", "0", "", "Logical diagram0","{F23F2BD6-FD20-44b8-92A3-ED99EE4D7037}");
