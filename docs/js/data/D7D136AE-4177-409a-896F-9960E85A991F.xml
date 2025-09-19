@@ -1,1 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1:1", "", "Twiin Afsprakenstelsel 1.3.x", "EARoot/EA1/EA4.htm", "175.png", "239", "0", "", "Logical diagram0","{2EC99FE9-EB76-4136-91F6-837A12591136}");
+tocTab[tocTab.length] = new Array("0.1.1:1", "", "01. Twiin Afsprakenstelsel 1.3.x", "EARoot/EA1/EA1/EA5.htm", "175.png", "239", "0", "", "Logical diagram0","{2EC99FE9-EB76-4136-91F6-837A12591136}");
+tocTab[tocTab.length] = new Array("0.1.1:2", "", "02. Generiek deel Twiin Afsprakenstelsel", "EARoot/EA1/EA1/EA7.htm", "175.png", "305", "0", "", "Logical diagram0","{B5D691C3-F068-4c46-907A-23E539B2DF48}");
+tocTab[tocTab.length] = new Array("0.1.1:3", "", "03. Twiin Implementatiewijzers Zorgtoepassingen", "EARoot/EA1/EA1/EA9.htm", "175.png", "376", "0", "", "Logical diagram0","{3006CC44-4733-4a91-82C5-F9FEF49B9469}");
+tocTab[tocTab.length] = new Array("0.1.1:4", "", "04. Twiin Ontwikkelsupplement", "EARoot/EA1/EA1/EA11.htm", "175.png", "377", "0", "", "Logical diagram0","{D7ED0598-1211-4f32-B781-F4240988D81E}");

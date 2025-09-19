@@ -80,6 +80,32 @@ function bulkshow(showpage) {
         }
     }
 }
+
+//START - OPEN ELEMENT IN NIEUWE WINDOW
+// document.addEventListener("DOMContentLoaded", function () {
+    // Alle <area>-links in diagrammen in een nieuw tabblad openen
+//    var areas = document.querySelectorAll("map area[href$='.htm'], map area[href$='.html']");
+//    areas.forEach(function(area) {
+//        area.setAttribute("target", "_blank");
+//    });
+//});
+
+//START - ALLEEN TOOLTIP, GEEN NAVIGATIE
+document.addEventListener("DOMContentLoaded", function () {
+    // Alle <area>-links in diagrammen selecteren
+    var areas = document.querySelectorAll("map area[href$='.htm'], map area[href$='.html']");
+    areas.forEach(function(area) {
+        // Klik blokkeren
+        area.addEventListener("click", function(event) {
+            event.preventDefault();   // geen navigatie
+            event.stopPropagation();  // niet verder bubbelen
+        });
+
+        // Optioneel: cursor aanpassen zodat het niet meer op een link lijkt
+        area.style.cursor = "pointer"; // of "default" als je geen handje wilt
+    });
+});
+
 // START - TOOLTIP CODE
 function mapRectangleMouseOver(sender) {
 
@@ -105,19 +131,42 @@ function mapRectangleMouseOver(sender) {
 
         var array = sender.coords.split(',');
 
+        // coördinaten omzetten naar getallen
+        var x1 = Number(array[0]);
+        var y1 = Number(array[1]);
+        var x2 = Number(array[2]);
+        var y2 = Number(array[3]);
+
         $(".previewPanel").html("");
         $(".previewPanel").append(notes);
-        
-        $(".previewPanel").css("margin-top", (Number(array[1]) - 15) + "px");
-        $(".previewPanel").css("margin-left", (Number(array[2]) - 410) + "px");
-        $(".previewPanel").stop(true, true).fadeIn(400); // stop oude animaties, dan fade in
+
+        // offsets instelbaar
+        var offsetX = -405;  // positief = x pixels naar rechts, negatief = naar links
+        var offsetY = -85;  // positief = x pixels naar beneden, negatief = naar boven
+
+        // positie van de afbeelding op de pagina
+        var $img = $(sender).closest('map').prev('img');
+        var imgOffset = $img.offset();
+
+        // horizontaal links van het object, verticaal gecentreerd
+        var leftX = x1 + imgOffset.left + offsetX;
+        var centerY = ((y1 + y2) / 2) + imgOffset.top + offsetY;
+
+        $(".previewPanel").css({
+            "position": "absolute",
+            "top": centerY + "px",
+            "left": leftX + "px",
+            "transform": "translate(0%, -50%)"
+        });
+
+        $(".previewPanel").stop(true, true).fadeIn(400);
     });
 
 }
 
 function mapRectangleMouseOut(sender) {
     if ($(".previewPanel:hover").length === 0) {
-        $(".previewPanel").stop(true, true).fadeOut(400); // stop oude animaties, dan fade out
+        $(".previewPanel").stop(true, true).fadeOut(400);
     }
 }
 
