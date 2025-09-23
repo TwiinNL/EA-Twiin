@@ -82,29 +82,29 @@ function bulkshow(showpage) {
 }
 
 //START - OPEN ELEMENT IN NIEUWE WINDOW
-// document.addEventListener("DOMContentLoaded", function () {
+ document.addEventListener("DOMContentLoaded", function () {
     // Alle <area>-links in diagrammen in een nieuw tabblad openen
-//    var areas = document.querySelectorAll("map area[href$='.htm'], map area[href$='.html']");
-//    areas.forEach(function(area) {
-//        area.setAttribute("target", "_blank");
-//    });
-//});
-
-//START - ALLEEN TOOLTIP, GEEN NAVIGATIE
-document.addEventListener("DOMContentLoaded", function () {
-    // Alle <area>-links in diagrammen selecteren
     var areas = document.querySelectorAll("map area[href$='.htm'], map area[href$='.html']");
     areas.forEach(function(area) {
-        // Klik blokkeren
-        area.addEventListener("click", function(event) {
-            event.preventDefault();   // geen navigatie
-            event.stopPropagation();  // niet verder bubbelen
-        });
-
-        // Optioneel: cursor aanpassen zodat het niet meer op een link lijkt
-        area.style.cursor = "pointer"; // of "default" als je geen handje wilt
+        area.setAttribute("target", "_blank");
     });
 });
+
+//START - ALLEEN TOOLTIP, GEEN NAVIGATIE
+// document.addEventListener("DOMContentLoaded", function () {
+    // Alle <area>-links in diagrammen selecteren
+//    var areas = document.querySelectorAll("map area[href$='.htm'], map area[href$='.html']");
+//    areas.forEach(function(area) {
+//        // Klik blokkeren
+//        area.addEventListener("click", function(event) {
+//            event.preventDefault();   // geen navigatie
+//            event.stopPropagation();  // niet verder bubbelen
+//        });
+//
+//        // Optioneel: cursor aanpassen zodat het niet meer op een link lijkt
+//        area.style.cursor = "pointer"; // of "default" als je geen handje wilt
+//    });
+// });
 
 // START - TOOLTIP CODE
 function mapRectangleMouseOver(sender) {
