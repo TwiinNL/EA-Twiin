@@ -8,3 +8,4 @@ tocTab[tocTab.length] = new Array("0.1:7", "", "S03. Voorwaarden en Technische k
 tocTab[tocTab.length] = new Array("0.1:8", "", "V01. Principes", "EARoot/EA1/EA15.htm", "175.png", "381", "0", "", "Logical diagram0","{F23F2BD6-FD20-44b8-92A3-ED99EE4D7037}");
 tocTab[tocTab.length] = new Array("0.1:9", "", "V02. Vertrouwensmodel", "EARoot/EA1/EA17.htm", "175.png", "391", "0", "", "Logical diagram0","{1D1CAE2B-75A8-4179-8E11-D60E037F0A61}");
 tocTab[tocTab.length] = new Array("0.1:10", "", "V03. Voorwaarden", "EARoot/EA1/EA19.htm", "175.png", "393", "0", "", "Logical diagram0","{C8D6D097-E70D-4b7a-90DD-54AA43B682DE}");
+tocTab[tocTab.length] = new Array("0.1:11", "", "V04. Technische kern - communicatiepatronen", "EARoot/EA1/EA21.htm", "175.png", "394", "0", "", "Logical diagram0","{F1DFE62A-DCF1-4cc5-B663-FD6475084FCE}");
