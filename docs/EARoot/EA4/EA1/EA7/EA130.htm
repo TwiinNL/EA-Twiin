@@ -94,7 +94,9 @@
 						<!-- <div class="projectBrowserTitle">Project: </div> -->
 						<div class="projectBrowserTitle"></div>
 						<ul>
-<a href="EA129.htm">Concepten</a></ul>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA134.htm">Verzenden van zorgdata</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="EA135.htm">Raadplegen van zorgdata</a></li>
+</ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
@@ -207,8 +209,49 @@
 	<!-- <div class="ObjectDetailsNotes">&lt;font color=&quot;#ffa500&quot;&gt;&lt;b&gt;CONCEPT&lt;/b&gt; &lt;/font&gt;-&#160;&#160;Het Twiin Afsprakenstelsel is zo ingericht dat het bijdraagt aan databeschikbaarheid. In het Twiin Afsprakenstelsel doelen we met de term databeschikbaarheid op het volgende: data moet toegankelijk en beschikbaar zijn voor zorgaanbieders voor zover nodig voor het verlenen van zorg. Daarbij moet het mogelijk zijn om gegevens op te vragen, te raadplegen, te wijzigen en gebruiken. Tenminste voor zover de gebruikers er recht op hebben. De privacy en pati&#235;ntveiligheid moet geborgd blijven. Dit betekent dat het huidige versnipperde landschap met elkaar verbonden moet worden.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;PLAN &lt;/b&gt;- Communicatiepatronen met business, applicatie, en netwerk functies toevoegen zodat duidelijk wordt volgens welke patronen uitgewisseld kan worden en welke vereisten daarvoor gelden.&lt;br/&gt;</div>
  -->	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="45%" class="TableHeading">Notities</td>
+					<td width="25%" class="TableHeading">Type relatie</td>
+					<td width="5%" class="TableHeading">Richting</td>
+					<td width="25%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						<div class="ObjectDetailsNotes">Het concept &lt;i&gt;Databeschikbaarheid &lt;/i&gt;bevat diverse andere concepten waaronder het &lt;i&gt;Raadplegen van zorgdata&lt;/i&gt;.&lt;br/&gt;&lt;br/&gt;</div>
+
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						«ArchiMate_Aggregation» 
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						To
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="EA135.htm">«ArchiMate_Capability» Raadplegen van zorgdata</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						<div class="ObjectDetailsNotes">Het concept &lt;i&gt;Databeschikbaarheid &lt;/i&gt;bevat diverse andere concepten waaronder het &lt;i&gt;Verzenden van zorgdata&lt;/i&gt;.&lt;br/&gt;</div>
+
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						«ArchiMate_Aggregation» 
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						To
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="EA134.htm">«ArchiMate_Capability» Verzenden van zorgdata</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table class="Table ea_table">
 				<tr>
