@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.4.1.7:1", "", "«ArchiMate_Capability» Databeschikbaarheid", "EARoot/EA4/EA1/EA7/EA130.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6553", "0", "", "Class0","{3D6F5379-0B5D-4a4d-9790-6B8F0E543949}");
+tocTab[tocTab.length] = new Array("0.4.1.7:2", "", "«ArchiMate_Capability» Samenwerking", "EARoot/EA4/EA1/EA7/EA131.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6554", "0", "", "Class0","{D80AFC68-8C14-476e-B5F5-F3357E97F756}");
+tocTab[tocTab.length] = new Array("0.4.1.7:3", "", "«ArchiMate_Capability» Implementatie", "EARoot/EA4/EA1/EA7/EA132.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6556", "0", "", "Class0","{773DF935-A527-490c-BF43-428ADC71CE05}");
+tocTab[tocTab.length] = new Array("0.4.1.7:4", "", "«ArchiMate_Capability» Betrouwbaar", "EARoot/EA4/EA1/EA7/EA133.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6557", "0", "", "Class0","{77F7AD07-C156-489c-9A3B-547A22A49AAC}");
