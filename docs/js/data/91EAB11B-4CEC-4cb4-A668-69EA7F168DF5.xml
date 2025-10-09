@@ -1,3 +1,4 @@
 tocTab[tocTab.length] = new Array("0.5.4.1", "1", "Twiin context", "EARoot/EA5/EA4/EA1/EA419.htm", "4.png", "", "", "{039873B1-B7FD-4699-BFFD-A3DBCF2286A2}", "Package");
-tocTab[tocTab.length] = new Array("0.5.4.2", "1", "Twiin Voorwaarden vereisten", "EARoot/EA5/EA4/EA2/EA422.htm", "4.png", "", "", "{652FA07C-2453-43e4-8712-CB28F1FEE541}", "Package");
-tocTab[tocTab.length] = new Array("0.5.4.3", "1", "Twiin Technische kern", "EARoot/EA5/EA4/EA3/EA440.htm", "4.png", "", "", "{65D49EE2-BA62-42ec-942E-4C28C79FAA5B}", "Package");
+tocTab[tocTab.length] = new Array("0.5.4.2", "1", "Communicatiepatronen", "EARoot/EA5/EA4/EA2/EA422.htm", "4.png", "", "", "{9BDF18AD-4EA5-4adc-B62B-38D68BC0810B}", "Package");
+tocTab[tocTab.length] = new Array("0.5.4.3", "1", "Twiin Voorwaarden vereisten", "EARoot/EA5/EA4/EA3/EA424.htm", "4.png", "", "", "{652FA07C-2453-43e4-8712-CB28F1FEE541}", "Package");
+tocTab[tocTab.length] = new Array("0.5.4.4", "1", "Twiin Technische kern", "EARoot/EA5/EA4/EA4/EA442.htm", "4.png", "", "", "{65D49EE2-BA62-42ec-942E-4C28C79FAA5B}", "Package");
