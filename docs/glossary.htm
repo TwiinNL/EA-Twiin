@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Project Glossary</title>
+<link href="./css/ea.css" rel="stylesheet" type="text/css" />
+<!-- START: TOOLTIP CODE -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js"></script>
+<!-- EIND: TOOLTIP CODE -->
+<script language="JavaScript" src="#JS#" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+		{			
+			// START: TOOLTIP CODE
+			$("area").mouseover(function() { mapRectangleMouseOver(this); } );
+			$("area").mouseout(function() { mapRectangleMouseOut(this); } );
+			// EIND: TOOLTIP CODE
+			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1>Twiin Enterprise Architectuur werkomgeving</h1>
+			<!-- <img class="header_image" src="#HEADER_IMAGE#" align="right" alt="Header Image" />-->
+			<img class="header_image" src="#HEADER_IMAGE#" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="index.htm">Architectuur-Twiin</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<!-- <div class="projectBrowserTitle">Project: </div> -->
+						<div class="projectBrowserTitle"></div>
+						<a href="index.htm">Architectuur-Twiin</a>
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<table class="Table ea_table">
+		<tr>
+			<td width="16%" class="TableHeading">Item</td>
+			<td width="8%" class="TableHeading">Type</td>
+			<td width="76%" class="TableHeading">Meaning</td>
+		</tr>
+						<tr valign="top">
+				<td width="16%" class="TableRow">Aggregation</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">De Aggregatie-relatie geeft aan dat een element &#233;&#233;n of meer andere concepten combineert. Met andere woorden: het ene element wordt gezien als een samenstelling van andere elementen.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Application function</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">Een Application Function vertegenwoordigt geautomatiseerd gedrag dat door een applicatiecomponent kan worden uitgevoerd.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Application service</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">Een Application Service representeert een expliciet gedefinieerd en naar buiten toe aangeboden applicatiegedrag. Het beschrijft wat een applicatie kan doen en beschikbaar stelt aan andere applicaties, processen of gebruikers, onafhankelijk van hoe het intern wordt uitgevoerd.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Archimate concepten</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">Archimate concepten zijn elementen, relaties, of connecties tussen relaties. </td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Assessment</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">Een Assessment vertegenwoordigt het resultaat van een analyse.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Business function</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">Een Business Function vertegenwoordigt een verzameling van businessgedrag die is gegroepeerd op basis van bepaalde criteria, zoals de benodigde bedrijfsresources en/of competenties, en wordt als geheel beheerd of uitgevoerd.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Business service</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">Een Business Service representeert expliciet gedefinieerd gedrag dat een businessrol, businessactor of businesssamenwerking aan de omgeving aanbiedt. Met andere woorden: het is een dienst of functionaliteit die een organisatie of actor levert aan externe of interne afnemers.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Capability</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">Een Capability representeert een vermogen dat een actief structuurelement, zoals een organisatie, persoon of systeem, bezit. Het gaat om iets waar een actor in potentie toe in staat is, onafhankelijk van hoe dit precies wordt uitgevoerd.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Course of action</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">Een Course of Action vertegenwoordigt een benadering of plan voor het inrichten van bepaalde capabilities en middelen die nodig zijn om een doel te bereiken.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Gezondheidsgegevens</td>
+				<td width="8%" class="TableRow">AVG</td>
+				<td width="76%" class="TableRow">persoonsgegevens die verband houden met de fysieke of mentale gezondheid van een natuurlijke persoon, waaronder gegevens over verleende gezondheidsdiensten waarmee informatie over zijn gezondheidstoestand wordt gegeven.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Grouping</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">Het Groeperingselement aggregeert of composeert concepten die bij elkaar horen op basis van een gemeenschappelijk kenmerk.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Realization</td>
+				<td width="8%" class="TableRow">Archimate</td>
+				<td width="76%" class="TableRow">De Realization-relatie geeft aan dat een element een kritische rol speelt bij het cre&#235;ren, realiseren, onderhouden of laten functioneren van een meer abstract element.</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Uitwisselen</td>
+				<td width="8%" class="TableRow">Wegiz</td>
+				<td width="76%" class="TableRow">Delen of benaderen</td>
+			</tr>			<tr valign="top">
+				<td width="16%" class="TableRow">Verwerking</td>
+				<td width="8%" class="TableRow">AVG</td>
+				<td width="76%" class="TableRow">Een bewerking of een geheel van bewerkingen met betrekking tot persoonsgegevens of een geheel van persoonsgegevens, al dan niet uitgevoerd via geautomatiseerde proced&#233;s, zoals het verzamelen, vastleggen, ordenen, structureren, opslaan, bijwerken of wijzigen, opvragen, raadplegen, gebruiken, verstrekken door middel van doorzending, verspreiden of op andere wijze ter beschikking stellen, aligneren of combineren, afschermen, wissen of vernietigen van gegevens</td>
+			</tr>
+	</table>
+</div> </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>

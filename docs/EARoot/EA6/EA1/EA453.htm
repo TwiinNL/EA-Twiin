@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Consistentie Twiin Afsprakenselsel</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<!-- START: TOOLTIP CODE -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js"></script>
+<!-- EIND: TOOLTIP CODE -->
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+		{			
+			// START: TOOLTIP CODE
+			$("area").mouseover(function() { mapRectangleMouseOver(this); } );
+			$("area").mouseout(function() { mapRectangleMouseOut(this); } );
+			// EIND: TOOLTIP CODE
+			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1>Twiin Enterprise Architectuur werkomgeving</h1>
+			<!-- <img class="header_image" src="../../../images/Twiin.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/Twiin.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../index.htm">Architectuur-Twiin</a> / <a href="../EA450.htm">Oude versies</a> / <a href="EA452.htm">EA-Twiin 1.3.x</a> / <a href="./EA1/EA501.htm">Consistentie Twiin Afsprakenselsel</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<!-- <div class="projectBrowserTitle">Project: </div> -->
+						<div class="projectBrowserTitle"></div>
+						<ul>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA455.htm">IH01. Afsprakenstelsel</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA457.htm">IH02. Generiek deel</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA459.htm">IH03. Implementatiewijzers</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA461.htm">IH04. Ontwikkelsupplement</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA463.htm">SH01. Principes</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA465.htm">SH02. Vertrouwensmodel</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA467.htm">SH03. Voorwaarden en Technische kern</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA469.htm">VH01. Principes</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA471.htm">VH02. Vertrouwensmodel</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA473.htm">VH03. Voorwaarden</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA475.htm">VH04. Technische kern - communicatiepatronen</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA477.htm">SV01a. Identificatie - Patiënt </a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA479.htm">SV01b. Identificatie - Zorgverlener</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA481.htm">SV01c. Identificatie - Zorgaanbieder</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA483.htm">SV02a. Authenticatie - Zorgverlener</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA485.htm">SV02b. Authenticatie - Zorgaanbieder</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA487.htm">SV03. Autorisatie - Zorgverlener</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA489.htm">SV04. Behandelrelatie</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA491.htm">SV05. Toestemming</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA493.htm">SV06a. Logging - Intern</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA495.htm">SV06. Logging - Patiënt</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA497.htm">SV06. Logging - Wederzijds</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA499.htm">SV07. Verantwoording</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody ElementPage"> <!-- Elementpage toegevoegd voor tooltip code -->
+	<!-- <span class="ObjectTitle">Consistentie Twiin Afsprakenselsel  : Public   Package</span> -->
+	<!-- CUSTOM -->
+	<span class="ObjectTitle">Consistentie Twiin Afsprakenselsel</span>
+	<div class="ObjectDetailsNotes">&lt;b&gt;Indeling van hoofstukken (IH)&lt;/b&gt;&lt;br/&gt;Het afsprakenstelsel is niet zomaar een willekeurige verzameling informatie. De inhoud is bijvoorbeeld ingedeeld op basis van overeenkomende kenmerken. Die indeling zie je terug in de verschillende hoofdstukken.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Samenhang tussen hoofdstukken (SH)&lt;/b&gt;&lt;br/&gt;Daarnaast hangen de hoofdstukken ook met elkaar samen. Wat in het ene hoofdstuk staat, kan gevolgen hebben voor een ander hoofdstuk. Zo bepaalt de juridische context bijvoorbeeld de basis voor het vertrouwensmodel. Het vertrouwensmodel vormt vervolgens weer het kader voor de hoofdstukken Voorwaarden en Technische kern. Je zou kunnen zeggen dat bepaalde hoofdstukken andere hoofdstukken &lt;i&gt;ondersteunen&lt;/i&gt;.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Vereisten in hoofdstukken (VH)&lt;/b&gt;&lt;br/&gt;Deze samenhang zie je terug in de teksten, maar vooral in de vereisten die in meerdere hoofdstukken staan. Consistentie binnen het hele afsprakenstelsel is belangrijk, maar binnen deze hoofdstukken extra, omdat er wordt gevalideerd op deze vereisten. Daarom vallen deze hoofdstukken onder architectuurbeheer. Dat houdt in dat we er gericht op toezien dat de structuur klopt, de inhoud samenhangt en de vereisten consequent worden toegepast. De overige hoofdstukken vallen niet onder architectuurbeheer. Daar bewaken we de samenhang wel, maar op een minder formele manier.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Samenhang tussen vereisten (SV)&lt;/b&gt;&lt;br/&gt;Er wordt extra goed gelet op consistentie tussen vereisten in diverse hoofdstukken. Onder iedere verseiste (met uitzondering van de principes) is daarom de relatie vastgelegd met andere vereisten.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Relatie met relaeses van het afsprakenstelsel&lt;/b&gt;&lt;br/&gt;Hoewel de enterprise-architectuur van Twiin niet direct gekoppeld is aan de release&#173;momenten van het afsprakenstelsel, ontwikkelen we beide zoveel mogelijk parallel door. Daarom maken we na iedere release van het afsprakenstelsel een snapshot van de enterprise-architectuur. Vanuit die snapshot werken we verder in een nieuwe versie, terwijl de voorgaande versie beschikbaar en inzichtelijk blijft.&lt;br/&gt;&lt;br/&gt;Na elke release van het afsprakenstelsel wordt de architectuur bijgewerkt. Deze wordt gebruikt om verbeteringen proactief in kaart te brengen en veranderingen reactief te beheersen, ter voorbereiding op de volgende release van het afsprakenstelsel.&lt;br/&gt;&lt;br/&gt;Dit is de actieve versie van de enterprise-architectuur in lijn met versie 1.3 van het afsprakenstelsel.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Onder architectuurbeheer&lt;/b&gt; &lt;br/&gt;Hier verstaan we ondet dat bij wijzigingen in het afsprakenstelsel de consistentie extra zorgvuldig wordt bewaakt. Dit betekent dat alle onderdelen logisch op elkaar blijven aansluiten, er geen tegenstrijdigheden ontstaan en de samenhang behouden blijft.&lt;br/&gt;Schrijvers van de hoofdstukken letten hier nu al op, maar extra zorgvuldig houdt concreet in dat de samenhang expliciet wordt uitgewerkt in dit model, en dat een onafhankelijk architect dit monitort en bewaakt.&lt;br/&gt;</div>
+
+	<hr>
+	<!-- END CUSTOM -->
+	<table border="0" class="ObjectDetails">
+		<!--
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3-9-2025 14:48:02</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">30-9-2025 14:37:28</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.3.x</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{560BB88B-6BD9-44f8-AA34-4849E2FB962E}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		-->
+		<!-- CUSTOM -->
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Type:</td>
+			<td width="85%" class="ObjectDetailsValue">Package</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Gemaakt:</td>
+			<td width="85%" class="ObjectDetailsValue">3-9-2025 14:48:02</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Gewijzigd:</td>
+			<td class="ObjectDetailsValue">30-9-2025 14:37:28</td>
+		</tr>
+        <tr>
+			<td class="ObjectDetailsTopic">Release:</td>
+			<ul><td class="ObjectDetailsValue">1.3.x</td></ul>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Komt voor in:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Auteur:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+
+		<!-- END CUSTOM -->
+	</table>
+	<!-- CUSTOM -->
+	<!-- <hr>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td class="ObjectDetailsTopic">Reactie:</td>
+			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+Package+-+Consistentie Twiin Afsprakenselsel&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
+		</tr>
+	</table> -->
+	<hr>
+	<!-- END CUSTOM -->
+	<!-- <div class="ObjectDetailsNotes">&lt;b&gt;Indeling van hoofstukken (IH)&lt;/b&gt;&lt;br/&gt;Het afsprakenstelsel is niet zomaar een willekeurige verzameling informatie. De inhoud is bijvoorbeeld ingedeeld op basis van overeenkomende kenmerken. Die indeling zie je terug in de verschillende hoofdstukken.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Samenhang tussen hoofdstukken (SH)&lt;/b&gt;&lt;br/&gt;Daarnaast hangen de hoofdstukken ook met elkaar samen. Wat in het ene hoofdstuk staat, kan gevolgen hebben voor een ander hoofdstuk. Zo bepaalt de juridische context bijvoorbeeld de basis voor het vertrouwensmodel. Het vertrouwensmodel vormt vervolgens weer het kader voor de hoofdstukken Voorwaarden en Technische kern. Je zou kunnen zeggen dat bepaalde hoofdstukken andere hoofdstukken &lt;i&gt;ondersteunen&lt;/i&gt;.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Vereisten in hoofdstukken (VH)&lt;/b&gt;&lt;br/&gt;Deze samenhang zie je terug in de teksten, maar vooral in de vereisten die in meerdere hoofdstukken staan. Consistentie binnen het hele afsprakenstelsel is belangrijk, maar binnen deze hoofdstukken extra, omdat er wordt gevalideerd op deze vereisten. Daarom vallen deze hoofdstukken onder architectuurbeheer. Dat houdt in dat we er gericht op toezien dat de structuur klopt, de inhoud samenhangt en de vereisten consequent worden toegepast. De overige hoofdstukken vallen niet onder architectuurbeheer. Daar bewaken we de samenhang wel, maar op een minder formele manier.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Samenhang tussen vereisten (SV)&lt;/b&gt;&lt;br/&gt;Er wordt extra goed gelet op consistentie tussen vereisten in diverse hoofdstukken. Onder iedere verseiste (met uitzondering van de principes) is daarom de relatie vastgelegd met andere vereisten.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Relatie met relaeses van het afsprakenstelsel&lt;/b&gt;&lt;br/&gt;Hoewel de enterprise-architectuur van Twiin niet direct gekoppeld is aan de release&#173;momenten van het afsprakenstelsel, ontwikkelen we beide zoveel mogelijk parallel door. Daarom maken we na iedere release van het afsprakenstelsel een snapshot van de enterprise-architectuur. Vanuit die snapshot werken we verder in een nieuwe versie, terwijl de voorgaande versie beschikbaar en inzichtelijk blijft.&lt;br/&gt;&lt;br/&gt;Na elke release van het afsprakenstelsel wordt de architectuur bijgewerkt. Deze wordt gebruikt om verbeteringen proactief in kaart te brengen en veranderingen reactief te beheersen, ter voorbereiding op de volgende release van het afsprakenstelsel.&lt;br/&gt;&lt;br/&gt;Dit is de actieve versie van de enterprise-architectuur in lijn met versie 1.3 van het afsprakenstelsel.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Onder architectuurbeheer&lt;/b&gt; &lt;br/&gt;Hier verstaan we ondet dat bij wijzigingen in het afsprakenstelsel de consistentie extra zorgvuldig wordt bewaakt. Dit betekent dat alle onderdelen logisch op elkaar blijven aansluiten, er geen tegenstrijdigheden ontstaan en de samenhang behouden blijft.&lt;br/&gt;Schrijvers van de hoofdstukken letten hier nu al op, maar extra zorgvuldig houdt concreet in dat de samenhang expliciet wordt uitgewerkt in dit model, en dat een onafhankelijk architect dit monitort en bewaakt.&lt;br/&gt;</div>
+ --> </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>

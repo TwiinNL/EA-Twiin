@@ -1,1 +1,2 @@
 tocTab[tocTab.length] = new Array("0.2:1", "", "Conceptuele architectuur", "EARoot/EA2/EA8.htm", "175.png", "478", "0", "", "Logical diagram0","{75F9095D-8EE7-442c-B377-BC0B0AAAF1FE}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "Databeschikbaarheid", "EARoot/EA2/EA10.htm", "175.png", "517", "0", "", "Logical diagram0","{B8EE6257-39CE-4f0c-919B-951390B7FE68}");
