@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.5.2.2.3:1", "", "«ArchiMate_BusinessFunction» Implementatie ondersteuning", "EARoot/EA5/EA2/EA2/EA3/EA268.htm", "9F0DDA8A-5_ArchiMate_BusinessFunction.png", "E6901", "0", "", "Activity0","{3BA6A896-0A4F-4856-B77E-E392369E4947}");
+tocTab[tocTab.length] = new Array("0.5.2.2.3:2", "", "«ArchiMate_BusinessFunction» Gebruiksondersteuning", "EARoot/EA5/EA2/EA2/EA3/EA269.htm", "9F0DDA8A-5_ArchiMate_BusinessFunction.png", "E6902", "0", "", "Activity0","{35D33CE8-C848-42dc-A568-0C40B38A3F0D}");
