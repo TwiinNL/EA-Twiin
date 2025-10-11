@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Vereisten - Vertrouwensmodel::Zorgverlener autorisatie</title>
+<title>Vereisten - Vertrouwensmodel::Zorgverlener authenticatie</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <!-- START: TOOLTIP CODE -->
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
@@ -78,7 +78,7 @@
 			<img class="header_image" src="../../../../images/Twiin.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../../index.htm">Architectuur-Twiin</a> / <a href="../../EA64.htm">Elementen</a> / <a href="../EA70.htm">Motivatie domein</a> / <a href="EA141.htm">Vereisten - Vertrouwensmodel</a> / <a href="EA147.htm">Zorgverlener autorisatie</a></p>
+			<p><a href="../../../../index.htm">Architectuur-Twiin</a> / <a href="../../EA66.htm">Elementen</a> / <a href="../EA72.htm">Motivatie domein</a> / <a href="EA143.htm">Vereisten - Vertrouwensmodel</a> / <a href="EA147.htm">Zorgverlener authenticatie</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -94,15 +94,15 @@
 						<!-- <div class="projectBrowserTitle">Project: </div> -->
 						<div class="projectBrowserTitle"></div>
 						<ul>
-<a href="EA141.htm">Vereisten - Vertrouwensmodel</a></ul>
+<a href="EA143.htm">Vereisten - Vertrouwensmodel</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody ElementPage"> <!-- Elementpage toegevoegd voor tooltip code -->
-	<!-- <span class="ObjectTitle">Zorgverlener autorisatie  : Public  &lt;&lt;ArchiMate_Requirement&gt;&gt; Requirement</span> -->
+	<!-- <span class="ObjectTitle">Zorgverlener authenticatie  : Public  &lt;&lt;ArchiMate_Requirement&gt;&gt; Requirement</span> -->
 	<!-- CUSTOM -->
-	<span class="ObjectTitle">Zorgverlener autorisatie</span>
-	<div class="ObjectDetailsNotes">VEREISTE&lt;br/&gt; - De bron is verplicht om te zorgen dat niet meer gegevens worden geraadpleegd/vrijgegeven dan noodzakelijk en volgt de autorisatieafspraken zoals die voor de betreffende toepassing zijn afgesproken.&lt;br/&gt;&lt;br/&gt;VERANTWOORDELIJKHEID&lt;br/&gt;Bij verzenden:&lt;br/&gt;- Dossierhouder&lt;br/&gt;&lt;br/&gt;Bij raadpleegbaar maken:&lt;br/&gt;- Dossierhouder&lt;br/&gt;&lt;br/&gt;INVULLING TWIIN&lt;br/&gt;- Voor iedere gegevensuitwisseling zijn er afspraken gemaakt over wie welke gegevens (waarom) uitwisselen.&lt;br/&gt;&lt;br/&gt;- Als deze autorisatieafspraken er niet op landelijk niveau zijn (tussen de betrokken zorgkoepels), zal Twiin (tijdelijke) afspraken maken met de Deelnemers.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;TOELICHTING&lt;br/&gt;- Twiin volgt de ontwikkeling van de landelijke afspraken over autorisatie in de NEN7520 en zal daarop aansluiten.&lt;br/&gt;</div>
+	<span class="ObjectTitle">Zorgverlener authenticatie</span>
+	<div class="ObjectDetailsNotes">VEREISTE&lt;br/&gt; - Zorgaanbieders moeten de voor de uitwisseling verantwoordelijke zorgverlener met zekerheid kunnen identificeren.&#160;&#160;&lt;br/&gt;&lt;br/&gt;VERANTWOORDELIJKHEID&lt;br/&gt;- Bij raadpleegbaar maken:&lt;br/&gt;De raadplegende zorgaanbieder moet zijn eigen gebruiker identificeren en authenticeren (NEN7510). De dossierhouder moet de identiteit kunnen controleren (d.m.v. een cryptografisch bewijs als een elekronische handtekening, volgens NEN7512).&lt;br/&gt;&lt;br/&gt;- Bij verzenden:&lt;br/&gt;De verzendende partij moet zijn eigen gebruiker identificeren en authenticeren (NEN7510). De dossierontvanger moet de identiteit kunnen controleren (d.m.v. een cryptografisch bewijs als een elekronische handtekening, volgens NEN7512). &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;INVULLING TWIIN&lt;br/&gt;Bij raadpleegbaar maken:&lt;br/&gt;- De dossierraadpleger dient zijn eigen gebruikers te authenticeren op eIDAS hoog betrouwbaarheidsniveau.&lt;br/&gt;- De authenticatie van van de gebruikers door het Twiin netwerk heen is nog niet mogelijk.&lt;br/&gt;- Door het nog ontbreken van landelijke afspraken over cryptografisch bewijs hiervan / ondertekening wordt dit door Twiin nog niet vereist. De dossierhouder kan de externe gebruiker daarmee wel identificeren maar niet met zekerheid (authenticeren).&lt;br/&gt;&lt;br/&gt;Bij verzenden:&lt;br/&gt;- De dossierhouder dient zijn eigen gebruikers te authenticeren op eIDAS hoog betrouwbaarheidsniveau.&lt;br/&gt;- De authenticatie van van de gebruikers door het Twiin netwerk heen is nog niet mogelijk.&lt;br/&gt;- Door het nog ontbreken van landelijke afspraken over cryptografisch bewijs hiervan / ondertekening wordt dit door Twiin nog niet vereist. Op welke manier en met welk betrouwbaarheidsniveau deze ondertekening moet plaats vinden hangt ook af van de NEN7512 risicoklasse waar de betreffende gegevensuitwisseling onder valt.&lt;br/&gt;- De dossierontvanger kan de externe gebruiker daarmee wel identificeren maar niet met zekerheid (authenticeren). &lt;br/&gt;&lt;br/&gt;TOELICHTING&lt;br/&gt;- NEN7512:2022 bepaalt het volgende: &#8220;Authenticatie van gebruikers van uit te wisselen persoonlijke gezondheidsinformatie moet in overeenstemming met eIDAS zijn, waarbij het betrouwbaarheidsniveau &#8216;hoog&#8217; moet worden gebruikt.&#8221; Dit betekent dat de initiërende gebruiker geauthenticeerd moet worden.&lt;br/&gt;&lt;br/&gt;Ondertekening van het uitgewisselde is ook verplicht (NEN7512:2022): &#8220;Ondertekening bij uitwisseling dient twee doelen. Ten eerste de toegenomen zekerheid omtrent de integriteit van de uitgewisselde gegevens en ten tweede de zekerheid omtrent de afzender. Immers, veel instellingen hebben grote hoeveelheden medewerkers en voorkomen behoort te worden dat een niet daartoe geautoriseerde medewerkere de indruk kan wekken dat een onjuiste uitwisseling eigenlijk een goede uitwisseling is.&#8220; Ondertekening van gegevens is bedoelt voor de ontvanger. De ontvanger is gehouden op basis van NEN7512:2022 om de ondertekening te controleren, dus bij raadplegen de dossierhouder en bij verzenden de dossierontvanger. De risicoklasse van de uitwisseling bepaalt welk betrouwbaarheidsniveau vereist is voor de handtekening.&lt;br/&gt;</div>
 
 	<hr>
 	<!-- END CUSTOM -->
@@ -114,7 +114,7 @@
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">30-9-2025 14:22:00</td>
+			<td class="ObjectDetailsValue">30-9-2025 14:21:53</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -159,11 +159,11 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{FF9A2732-4E4A-4d1e-85F1-E87C1F341869}</td>
+			<td class="ObjectDetailsValue">{20987911-AE45-45c8-A4C4-F7CCDEE2C18F}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA4/EA32.htm">VH02. Vertrouwensmodel</a>, <a href="../../../EA4/EA48.htm">SV03. Autorisatie - Zorgverlener</a>, <a href="../../EA2/EA4/EA310.htm">Vertrouwensmodel - Vereisten</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA4/EA34.htm">VH02. Vertrouwensmodel</a>, <a href="../../../EA4/EA46.htm">SV02a. Authenticatie - Zorgverlener</a>, <a href="../../EA2/EA4/EA312.htm">Vertrouwensmodel - Vereisten</a></td>
 		</tr>
 		-->
 		<!-- CUSTOM -->
@@ -177,7 +177,7 @@
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Gewijzigd:</td>
-			<td class="ObjectDetailsValue">30-9-2025 14:22:00</td>
+			<td class="ObjectDetailsValue">30-9-2025 14:21:53</td>
 		</tr>
         <tr>
 			<td class="ObjectDetailsTopic">Release:</td>
@@ -185,7 +185,7 @@
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Komt voor in:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA4/EA32.htm">VH02. Vertrouwensmodel</a>, <a href="../../../EA4/EA48.htm">SV03. Autorisatie - Zorgverlener</a>, <a href="../../EA2/EA4/EA310.htm">Vertrouwensmodel - Vereisten</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA4/EA34.htm">VH02. Vertrouwensmodel</a>, <a href="../../../EA4/EA46.htm">SV02a. Authenticatie - Zorgverlener</a>, <a href="../../EA2/EA4/EA312.htm">Vertrouwensmodel - Vereisten</a></td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Auteur:</td>
@@ -199,12 +199,12 @@
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td class="ObjectDetailsTopic">Reactie:</td>
-			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+Requirement+-+Zorgverlener autorisatie&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
+			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+Requirement+-+Zorgverlener authenticatie&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
 		</tr>
 	</table> -->
 	<hr>
 	<!-- END CUSTOM -->
-	<!-- <div class="ObjectDetailsNotes">VEREISTE&lt;br/&gt; - De bron is verplicht om te zorgen dat niet meer gegevens worden geraadpleegd/vrijgegeven dan noodzakelijk en volgt de autorisatieafspraken zoals die voor de betreffende toepassing zijn afgesproken.&lt;br/&gt;&lt;br/&gt;VERANTWOORDELIJKHEID&lt;br/&gt;Bij verzenden:&lt;br/&gt;- Dossierhouder&lt;br/&gt;&lt;br/&gt;Bij raadpleegbaar maken:&lt;br/&gt;- Dossierhouder&lt;br/&gt;&lt;br/&gt;INVULLING TWIIN&lt;br/&gt;- Voor iedere gegevensuitwisseling zijn er afspraken gemaakt over wie welke gegevens (waarom) uitwisselen.&lt;br/&gt;&lt;br/&gt;- Als deze autorisatieafspraken er niet op landelijk niveau zijn (tussen de betrokken zorgkoepels), zal Twiin (tijdelijke) afspraken maken met de Deelnemers.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;TOELICHTING&lt;br/&gt;- Twiin volgt de ontwikkeling van de landelijke afspraken over autorisatie in de NEN7520 en zal daarop aansluiten.&lt;br/&gt;</div>
+	<!-- <div class="ObjectDetailsNotes">VEREISTE&lt;br/&gt; - Zorgaanbieders moeten de voor de uitwisseling verantwoordelijke zorgverlener met zekerheid kunnen identificeren.&#160;&#160;&lt;br/&gt;&lt;br/&gt;VERANTWOORDELIJKHEID&lt;br/&gt;- Bij raadpleegbaar maken:&lt;br/&gt;De raadplegende zorgaanbieder moet zijn eigen gebruiker identificeren en authenticeren (NEN7510). De dossierhouder moet de identiteit kunnen controleren (d.m.v. een cryptografisch bewijs als een elekronische handtekening, volgens NEN7512).&lt;br/&gt;&lt;br/&gt;- Bij verzenden:&lt;br/&gt;De verzendende partij moet zijn eigen gebruiker identificeren en authenticeren (NEN7510). De dossierontvanger moet de identiteit kunnen controleren (d.m.v. een cryptografisch bewijs als een elekronische handtekening, volgens NEN7512). &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;INVULLING TWIIN&lt;br/&gt;Bij raadpleegbaar maken:&lt;br/&gt;- De dossierraadpleger dient zijn eigen gebruikers te authenticeren op eIDAS hoog betrouwbaarheidsniveau.&lt;br/&gt;- De authenticatie van van de gebruikers door het Twiin netwerk heen is nog niet mogelijk.&lt;br/&gt;- Door het nog ontbreken van landelijke afspraken over cryptografisch bewijs hiervan / ondertekening wordt dit door Twiin nog niet vereist. De dossierhouder kan de externe gebruiker daarmee wel identificeren maar niet met zekerheid (authenticeren).&lt;br/&gt;&lt;br/&gt;Bij verzenden:&lt;br/&gt;- De dossierhouder dient zijn eigen gebruikers te authenticeren op eIDAS hoog betrouwbaarheidsniveau.&lt;br/&gt;- De authenticatie van van de gebruikers door het Twiin netwerk heen is nog niet mogelijk.&lt;br/&gt;- Door het nog ontbreken van landelijke afspraken over cryptografisch bewijs hiervan / ondertekening wordt dit door Twiin nog niet vereist. Op welke manier en met welk betrouwbaarheidsniveau deze ondertekening moet plaats vinden hangt ook af van de NEN7512 risicoklasse waar de betreffende gegevensuitwisseling onder valt.&lt;br/&gt;- De dossierontvanger kan de externe gebruiker daarmee wel identificeren maar niet met zekerheid (authenticeren). &lt;br/&gt;&lt;br/&gt;TOELICHTING&lt;br/&gt;- NEN7512:2022 bepaalt het volgende: &#8220;Authenticatie van gebruikers van uit te wisselen persoonlijke gezondheidsinformatie moet in overeenstemming met eIDAS zijn, waarbij het betrouwbaarheidsniveau &#8216;hoog&#8217; moet worden gebruikt.&#8221; Dit betekent dat de initiërende gebruiker geauthenticeerd moet worden.&lt;br/&gt;&lt;br/&gt;Ondertekening van het uitgewisselde is ook verplicht (NEN7512:2022): &#8220;Ondertekening bij uitwisseling dient twee doelen. Ten eerste de toegenomen zekerheid omtrent de integriteit van de uitgewisselde gegevens en ten tweede de zekerheid omtrent de afzender. Immers, veel instellingen hebben grote hoeveelheden medewerkers en voorkomen behoort te worden dat een niet daartoe geautoriseerde medewerkere de indruk kan wekken dat een onjuiste uitwisseling eigenlijk een goede uitwisseling is.&#8220; Ondertekening van gegevens is bedoelt voor de ontvanger. De ontvanger is gehouden op basis van NEN7512:2022 om de ondertekening te controleren, dus bij raadplegen de dossierhouder en bij verzenden de dossierontvanger. De risicoklasse van de uitwisseling bepaalt welk betrouwbaarheidsniveau vereist is voor de handtekening.&lt;br/&gt;</div>
  -->	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
@@ -231,7 +231,7 @@
 						To
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../EA9/EA1/EA183.htm">5.12 Autorisatie</a>
+						<a href="../EA10/EA1/EA230.htm">Auth-01 Zorgverlener authenticatie</a>
 					</td>
 				</tr>				<tr>
 					<td width="45%" class="TableRow" valign="top">
@@ -244,7 +244,7 @@
 						To
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../EA9/EA1/EA166.htm">2.4 Beveiliging</a>
+						<a href="../EA9/EA1/EA183.htm">5.10 Authenticatie</a>
 					</td>
 				</tr>				<tr>
 					<td width="45%" class="TableRow" valign="top">
@@ -257,7 +257,7 @@
 						To
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../EA9/EA1/EA168.htm">3.1 Behandelrelatie</a>
+						<a href="../EA9/EA1/EA167.htm">2.5 Privacy</a>
 					</td>
 				</tr>				<tr>
 					<td width="45%" class="TableRow" valign="top">
@@ -270,7 +270,7 @@
 						To
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../EA10/EA1/EA230.htm">of</a>
+						<a href="../EA9/EA1/EA168.htm">2.4 Beveiliging</a>
 					</td>
 				</tr>				<tr>
 					<td width="45%" class="TableRow" valign="top">
@@ -283,7 +283,7 @@
 						To
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../EA9/EA1/EA165.htm">2.5 Privacy</a>
+						<a href="../EA9/EA1/EA184.htm">5.11</a>
 					</td>
 				</tr>
 			</table>
@@ -297,7 +297,7 @@
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">archimate_element_identifier</td>
-				<td width="50%" class="TableRow" valign="top">id-d0edf00337534fae9d17c24b98379440</td>
+				<td width="50%" class="TableRow" valign="top">id-ebd530f761774f45ac7bef95a50857d5</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
@@ -348,7 +348,7 @@
 						From
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../../EA2/EA4/EA420.htm">«ArchiMate_Product» 5.3 Vertrouwen: Autorisatie</a>
+						<a href="../../EA2/EA4/EA421.htm">«ArchiMate_Product» 5.2 Vertrouwen: Authenticatie</a>
 					</td>
 				</tr>
 			</table>
