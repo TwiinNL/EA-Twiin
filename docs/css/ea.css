@@ -638,8 +638,7 @@ UL {
 	margin-top: 5px;
 	height: 100%;
 	/* width: 350px; */
-	min-width: 350px;
-	max-width: auto;
+	width: 400px;
 	padding-left: 15px;
 	padding-top: 15px;
 	vertical-align: top;
