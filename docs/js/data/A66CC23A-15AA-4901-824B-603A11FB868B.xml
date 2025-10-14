@@ -1,5 +1,6 @@
-tocTab[tocTab.length] = new Array("0.1", "1", "Context", "EARoot/EA1/EA7.htm", "4.png", "", "", "{5DD2861D-3227-471d-A617-249F22864C83}", "Package");
-tocTab[tocTab.length] = new Array("0.2", "1", "Conceptuele architectuur", "EARoot/EA2/EA12.htm", "4.png", "", "", "{2687CCF8-A176-4226-88FA-E0C15CA10C8C}", "Package");
-tocTab[tocTab.length] = new Array("0.3", "1", "Logische architectuur", "EARoot/EA3/EA13.htm", "4.png", "", "", "{86CAE8D4-1ED3-41a6-ADC2-7B69522BD913}", "Package");
-tocTab[tocTab.length] = new Array("0.4", "1", "Consistentie Twiin Afsprakenselsel", "EARoot/EA4/EA64.htm", "4.png", "", "", "{CDA77458-5428-4e1a-A729-A533B630D7B7}", "Package");
-tocTab[tocTab.length] = new Array("0.5", "1", "Elementen", "EARoot/EA5/EA66.htm", "4.png", "", "", "{C3E4B4A4-A434-4d1a-BCD9-D741CC1FBFB7}", "Package");
+tocTab[tocTab.length] = new Array("0.1", "1", "Waarom Twiin", "EARoot/EA1/EA7.htm", "4.png", "", "", "{5DD2861D-3227-471d-A617-249F22864C83}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Wat is Twiin", "EARoot/EA2/EA12.htm", "4.png", "", "", "{2687CCF8-A176-4226-88FA-E0C15CA10C8C}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "Hoe werkt Twiin", "EARoot/EA3/EA13.htm", "4.png", "", "", "{86CAE8D4-1ED3-41a6-ADC2-7B69522BD913}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Waarmee werkt Twiin", "EARoot/EA4/EA20.htm", "4.png", "", "", "{A178C124-B0F7-476e-97D4-B4ECCF7DED17}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "Consistentie Twiin Afsprakenselsel", "EARoot/EA5/EA67.htm", "4.png", "", "", "{CDA77458-5428-4e1a-A729-A533B630D7B7}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "Elementen", "EARoot/EA6/EA69.htm", "4.png", "", "", "{C3E4B4A4-A434-4d1a-BCD9-D741CC1FBFB7}", "Package");
