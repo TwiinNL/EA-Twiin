@@ -637,7 +637,8 @@ UL {
 	border-radius: 0px;
 	margin-top: 5px;
 	height: 100%;
-	width: 350px;
+	/* width: 350px; */
+	width: auto;
 	padding-left: 15px;
 	padding-top: 15px;
 	vertical-align: top;
