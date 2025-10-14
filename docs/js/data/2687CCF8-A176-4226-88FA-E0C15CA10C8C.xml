@@ -1,2 +1,2 @@
 tocTab[tocTab.length] = new Array("0.2:1", "", "Overzicht", "EARoot/EA2/EA8.htm", "175.png", "478", "0", "", "Logical diagram0","{75F9095D-8EE7-442c-B377-BC0B0AAAF1FE}");
-tocTab[tocTab.length] = new Array("0.2:2", "", "Databeschikbaarheid services", "EARoot/EA2/EA10.htm", "175.png", "519", "0", "", "Logical diagram0","{63F03378-00AC-43ec-8017-BF0262952767}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "Services voor databeschikbaarheid", "EARoot/EA2/EA10.htm", "175.png", "520", "0", "", "Logical diagram0","{9712CF55-6DBD-4fca-9EE3-17EBEA56B737}");

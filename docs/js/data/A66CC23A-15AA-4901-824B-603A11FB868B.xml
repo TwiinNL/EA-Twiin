@@ -3,5 +3,4 @@ tocTab[tocTab.length] = new Array("0.2", "1", "Conceptuele architectuur", "EARoo
 tocTab[tocTab.length] = new Array("0.3", "1", "Logische architectuur", "EARoot/EA3/EA13.htm", "4.png", "", "", "{86CAE8D4-1ED3-41a6-ADC2-7B69522BD913}", "Package");
 tocTab[tocTab.length] = new Array("0.4", "1", "Consistentie Twiin Afsprakenselsel", "EARoot/EA4/EA64.htm", "4.png", "", "", "{CDA77458-5428-4e1a-A729-A533B630D7B7}", "Package");
 tocTab[tocTab.length] = new Array("0.5", "1", "Elementen", "EARoot/EA5/EA66.htm", "4.png", "", "", "{C3E4B4A4-A434-4d1a-BCD9-D741CC1FBFB7}", "Package");
-tocTab[tocTab.length] = new Array("0.6", "1", "Oude versies", "EARoot/EA6/EA469.htm", "4.png", "", "", "{C29C33E8-B8B6-40eb-A09B-BBC59002F772}", "Package");
-tocTab[tocTab.length] = new Array("0.7", "1", "Hulpmiddelen", "EARoot/EA7/EA821.htm", "4.png", "", "", "{994AF4E8-D4C6-4a27-9F5A-0B770B1B5CA8}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "Vorige versies", "EARoot/EA6/EA473.htm", "4.png", "", "", "{C29C33E8-B8B6-40eb-A09B-BBC59002F772}", "Package");
