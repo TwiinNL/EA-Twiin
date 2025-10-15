@@ -21,7 +21,7 @@ B.red {
 	text-decoration: none;
 }
 BODY {
-	background-color: #EEEEEE;
+	background-color: #E9E9E9;
 	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 14px;
 	height: 100%;
@@ -82,10 +82,10 @@ H1 {
 	/* padding-top: 16px; */
 	padding-top: 14px;
 	float:left;
-	color: #4a4a4a;
+	color: #4C7091;
 }
 H2 {
-	color: #000000;
+	color: #4C7091;
 	/* font-size: 80%; */
 	font-size: 20px;
 	font-weight: bold;
@@ -95,7 +95,7 @@ H2 {
 	padding-left: 0px;
 }
 H3 {
-	color: #000000;
+	color: #4C7091;
 	/* font-size: 80%; */
 	font-size: 18px;
 	font-weight: bold;
@@ -104,7 +104,7 @@ H3 {
 	margin-top: 20px;
 }
 H4 {
-	color: #000000;
+	color: #4C7091;
 	/* font-size: 70%; */
 	font-size: 16px;
 	font-weight: bold;
@@ -117,7 +117,7 @@ LI {
 	font-size: 14px;
 }
 OL {
-	color: #000000;
+	color: #3E4D5B;
 	margin-bottom: 0pt;
 	margin-top: 0pt;
 }
@@ -139,12 +139,13 @@ PRE {
 	width: 100%;
 }
 TD {
-	color: #000000;
+	/* color: #3E4D5B; */
+	color: #3E4D5B;
 	/* font-size: 8pt */
 	font-size: 14px;
 }
 UL {
-	color: #000000;
+	color: #3E4D5B;
 	list-style: none;
 	margin-bottom: 0px;
 	margin-top: 0px;
