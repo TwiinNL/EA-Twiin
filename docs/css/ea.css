@@ -1,12 +1,12 @@
 A:link, A:hover {
 	/* color: #CC6633; */
-	color:blue;
+	color: #3E4D5C;
 	/* text-decoration: underline */
 	text-decoration: none;
 }
 A:active, A:visited {
-	/* color: #CC6633; */
-	color:blue;
+	/* color: #3E4D5C; */
+	color: #4C7091;
 }
 B.black {
 	color: black;
@@ -82,10 +82,10 @@ H1 {
 	/* padding-top: 16px; */
 	padding-top: 14px;
 	float:left;
-	color: #4C7091;
+	color: #3E4D5C;
 }
 H2 {
-	color: #4C7091;
+	color: #3E4D5C;
 	/* font-size: 80%; */
 	font-size: 20px;
 	font-weight: bold;
@@ -95,7 +95,7 @@ H2 {
 	padding-left: 0px;
 }
 H3 {
-	color: #4C7091;
+	color: #3E4D5C;
 	/* font-size: 80%; */
 	font-size: 18px;
 	font-weight: bold;
@@ -104,7 +104,7 @@ H3 {
 	margin-top: 20px;
 }
 H4 {
-	color: #4C7091;
+	color: #3E4D5C;
 	/* font-size: 70%; */
 	font-size: 16px;
 	font-weight: bold;
@@ -117,7 +117,7 @@ LI {
 	font-size: 14px;
 }
 OL {
-	color: #3E4D5B;
+	color: #3E4D5C;
 	margin-bottom: 0pt;
 	margin-top: 0pt;
 }
@@ -139,13 +139,13 @@ PRE {
 	width: 100%;
 }
 TD {
-	/* color: #3E4D5B; */
+	/* color: #3E4D5C; */
 	color: #3E4D5B;
 	/* font-size: 8pt */
 	font-size: 14px;
 }
 UL {
-	color: #3E4D5B;
+	color: #3E4D5C;
 	list-style: none;
 	margin-bottom: 0px;
 	margin-top: 0px;
@@ -220,7 +220,7 @@ UL {
 	font-weight: bold;
 }
 .DiagramTitle {
-	color: #000080;
+	color: #3E4D5C;
 	font-size: 100%;
 	font-weight: bold;
 }
@@ -247,7 +247,7 @@ UL {
 .header {
 	background-color: #CECF9C;
 	border: #FFFFFF 1px solid;
-	color: #000000;
+	color: #3E4D5C;
 	font-weight: bold;
 }
 .Header {
@@ -289,7 +289,7 @@ UL {
 	padding: 0px;
 }
 .IndexTitle {
-	color: #405E8D;
+	color: #3E4D5C;
 	font-size: 15px;
 	font-weight: bold;
 	position: absolute;
@@ -648,7 +648,7 @@ UL {
 .projectBrowserTitle{
 	font-size: 14px;
 	font-weight: bold;
-	color: #4a4a4a;
+	color: #3E4D5B;
 }
 
 
