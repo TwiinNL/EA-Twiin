@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.7.1.9:1", "", "Databeschikbaarheid", "EARoot/EA7/EA1/EA9/EA181.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6553", "0", "", "Class0","{3D6F5379-0B5D-4a4d-9790-6B8F0E543949}");
-tocTab[tocTab.length] = new Array("0.7.1.9:2", "", "Betrouwbaar/ vertrouwen", "EARoot/EA7/EA1/EA9/EA182.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6557", "0", "", "Class0","{77F7AD07-C156-489c-9A3B-547A22A49AAC}");
-tocTab[tocTab.length] = new Array("0.7.1.9:3", "", "Samenwerking (Co-creatie)", "EARoot/EA7/EA1/EA9/EA183.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6554", "0", "", "Class0","{D80AFC68-8C14-476e-B5F5-F3357E97F756}");
-tocTab[tocTab.length] = new Array("0.7.1.9:4", "", "Implementatie (Toepasbaar)", "EARoot/EA7/EA1/EA9/EA184.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6556", "0", "", "Class0","{773DF935-A527-490c-BF43-428ADC71CE05}");
+tocTab[tocTab.length] = new Array("0.7.1.9:1", "", "Databeschikbaarheid", "EARoot/EA7/EA1/EA9/EA183.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6553", "0", "", "Class0","{3D6F5379-0B5D-4a4d-9790-6B8F0E543949}");
+tocTab[tocTab.length] = new Array("0.7.1.9:2", "", "Betrouwbaar/ vertrouwen", "EARoot/EA7/EA1/EA9/EA184.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6557", "0", "", "Class0","{77F7AD07-C156-489c-9A3B-547A22A49AAC}");
+tocTab[tocTab.length] = new Array("0.7.1.9:3", "", "Samenwerking (Co-creatie)", "EARoot/EA7/EA1/EA9/EA185.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6554", "0", "", "Class0","{D80AFC68-8C14-476e-B5F5-F3357E97F756}");
+tocTab[tocTab.length] = new Array("0.7.1.9:4", "", "Implementatie (Toepasbaar)", "EARoot/EA7/EA1/EA9/EA186.htm", "9F0DDA8A-5_ArchiMate_Capability.png", "E6556", "0", "", "Class0","{773DF935-A527-490c-BF43-428ADC71CE05}");
