@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.7.4.1", "1", "Wet- en regelgeving", "EARoot/EA7/EA4/EA1/EA497.htm", "4.png", "", "", "{B31BF022-AE78-4e2b-A563-EEAB708D0863}", "Package");
-tocTab[tocTab.length] = new Array("0.7.4.2", "1", "Normen", "EARoot/EA7/EA4/EA2/EA499.htm", "4.png", "", "", "{8808F230-5F89-4c21-9377-AEF6775136D3}", "Package");
-tocTab[tocTab.length] = new Array("0.7.4.3", "1", "Twiin context", "EARoot/EA7/EA4/EA3/EA505.htm", "4.png", "", "", "{039873B1-B7FD-4699-BFFD-A3DBCF2286A2}", "Package");
-tocTab[tocTab.length] = new Array("0.7.4.4", "1", "Communicatiepatronen", "EARoot/EA7/EA4/EA4/EA510.htm", "4.png", "", "", "{9BDF18AD-4EA5-4adc-B62B-38D68BC0810B}", "Package");
-tocTab[tocTab.length] = new Array("0.7.4.5", "1", "Twiin Voorwaarden vereisten", "EARoot/EA7/EA4/EA5/EA514.htm", "4.png", "", "", "{652FA07C-2453-43e4-8712-CB28F1FEE541}", "Package");
-tocTab[tocTab.length] = new Array("0.7.4.6", "1", "Twiin Technische kern", "EARoot/EA7/EA4/EA6/EA534.htm", "4.png", "", "", "{65D49EE2-BA62-42ec-942E-4C28C79FAA5B}", "Package");
+tocTab[tocTab.length] = new Array("0.7.4.1", "1", "Wet- en regelgeving", "EARoot/EA7/EA4/EA1/EA501.htm", "4.png", "", "", "{B31BF022-AE78-4e2b-A563-EEAB708D0863}", "Package");
+tocTab[tocTab.length] = new Array("0.7.4.2", "1", "Normen", "EARoot/EA7/EA4/EA2/EA503.htm", "4.png", "", "", "{8808F230-5F89-4c21-9377-AEF6775136D3}", "Package");
+tocTab[tocTab.length] = new Array("0.7.4.3", "1", "Twiin context", "EARoot/EA7/EA4/EA3/EA509.htm", "4.png", "", "", "{039873B1-B7FD-4699-BFFD-A3DBCF2286A2}", "Package");
+tocTab[tocTab.length] = new Array("0.7.4.4", "1", "Communicatiepatronen", "EARoot/EA7/EA4/EA4/EA514.htm", "4.png", "", "", "{9BDF18AD-4EA5-4adc-B62B-38D68BC0810B}", "Package");
+tocTab[tocTab.length] = new Array("0.7.4.5", "1", "Twiin Voorwaarden vereisten", "EARoot/EA7/EA4/EA5/EA518.htm", "4.png", "", "", "{652FA07C-2453-43e4-8712-CB28F1FEE541}", "Package");
+tocTab[tocTab.length] = new Array("0.7.4.6", "1", "Twiin Technische kern", "EARoot/EA7/EA4/EA6/EA538.htm", "4.png", "", "", "{65D49EE2-BA62-42ec-942E-4C28C79FAA5B}", "Package");
