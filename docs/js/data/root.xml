@@ -1,3 +1,1 @@
 tocTab[tocTab.length] = new Array("0", "1", "Architectuur-Twiin", "", "1.png", "", "", "{A66CC23A-15AA-4901-824B-603A11FB868B}", "Package");
-tocTab[tocTab.length] = new Array("0", "2", "System", "", "1.png", "System");
-tocTab[tocTab.length] = new Array("0", "3", "Project Glossary", "glossary.htm", "26.png");

@@ -1,1 +1,11 @@
-tocTab[tocTab.length] = new Array("0.7.1.7:1", "", "Algemene Verordening Gegevensbescherming (AVG)", "EARoot/EA7/EA1/EA7/EA179.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E6931", "0", "", "Class0","{542E4B46-FF0B-4f80-B08F-F34DDEA9DA36}");
+tocTab[tocTab.length] = new Array("0.7.1.7:1", "", "Algemene Verordening Gegevensbescherming (AVG)", "EARoot/EA7/EA1/EA7/EA177.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E6931", "0", "", "Class0","{542E4B46-FF0B-4f80-B08F-F34DDEA9DA36}");
+tocTab[tocTab.length] = new Array("0.7.1.7:2", "", "Begiz", "EARoot/EA7/EA1/EA7/EA178.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E7019", "0", "", "Class0","{71B07B2F-014B-4837-885B-441A9421B0FB}");
+tocTab[tocTab.length] = new Array("0.7.1.7:3", "", "Begz", "EARoot/EA7/EA1/EA7/EA179.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E7016", "0", "", "Class0","{C54E73CD-4622-427a-9652-A4EB4D2406D5}");
+tocTab[tocTab.length] = new Array("0.7.1.7:4", "", "EHDS", "EARoot/EA7/EA1/EA7/EA180.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E7021", "0", "", "Class0","{FE0A84BF-0296-45f7-8F38-701A495D72BB}");
+tocTab[tocTab.length] = new Array("0.7.1.7:5", "", "eIDAS", "EARoot/EA7/EA1/EA7/EA181.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E7020", "0", "", "Class0","{D6DEDF50-EA98-4d65-A4BC-91014B342476}");
+tocTab[tocTab.length] = new Array("0.7.1.7:6", "", "UAVG", "EARoot/EA7/EA1/EA7/EA182.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E7013", "0", "", "Class0","{FDCE68CD-E12F-46c9-A5A0-045673B54663}");
+tocTab[tocTab.length] = new Array("0.7.1.7:7", "", "Wabvpz", "EARoot/EA7/EA1/EA7/EA183.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E7014", "0", "", "Class0","{592CA503-EB51-4f3b-B87F-1B7C23E5DCC3}");
+tocTab[tocTab.length] = new Array("0.7.1.7:8", "", "Wegiz", "EARoot/EA7/EA1/EA7/EA184.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E7017", "0", "", "Class0","{1E6B2B84-5115-4a52-9FEC-95794960DB09}");
+tocTab[tocTab.length] = new Array("0.7.1.7:9", "", "Wet BIG", "EARoot/EA7/EA1/EA7/EA185.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E7010", "0", "", "Class0","{FD6F66D0-F31D-4e94-BCAA-2A143C4945BF}");
+tocTab[tocTab.length] = new Array("0.7.1.7:10", "", "WGBO", "EARoot/EA7/EA1/EA7/EA186.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E7009", "0", "", "Class0","{4EAC6DF2-D959-4c6d-8712-ED1104464876}");
+tocTab[tocTab.length] = new Array("0.7.1.7:11", "", "Wkkgz", "EARoot/EA7/EA1/EA7/EA187.htm", "9F0DDA8A-5_ArchiMate_Constraint.png", "E7011", "0", "", "Class0","{83D9EBC1-C491-402a-9DC4-3646B0BDC9E4}");

@@ -1,5 +1,5 @@
 tocTab[tocTab.length] = new Array("0.2:1", "", "Missie, visie, doelstellingen", "EARoot/EA2/EA4.htm", "175.png", "473", "0", "", "Logical diagram0","{2E0FAD91-A9B5-4e40-A801-650FEC348E0A}");
 tocTab[tocTab.length] = new Array("0.2:2", "", "Architectuurvisie", "EARoot/EA2/EA6.htm", "175.png", "474", "0", "", "Logical diagram0","{B68BC6B6-72FB-45f9-A3FA-AF2D309F8474}");
 tocTab[tocTab.length] = new Array("0.2:3", "", "Principes", "EARoot/EA2/EA8.htm", "175.png", "475", "0", "", "Logical diagram0","{517A2D3E-A9D9-43f0-AB88-BCD3139E8C5D}");
-tocTab[tocTab.length] = new Array("0.2:4", "", "Juridische kadering", "EARoot/EA2/EA10.htm", "175.png", "532", "0", "", "Logical diagram0","{EE2F3032-BF58-4ded-8D17-62E5BFEED7B4}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "Juridische context", "EARoot/EA2/EA10.htm", "175.png", "532", "0", "", "Logical diagram0","{EE2F3032-BF58-4ded-8D17-62E5BFEED7B4}");
 tocTab[tocTab.length] = new Array("0.2:5", "", "Toepasselijke normen", "EARoot/EA2/EA12.htm", "175.png", "533", "0", "", "Logical diagram0","{DC1F023D-9E85-4325-99CB-2F3533643EEB}");
