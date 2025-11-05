@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.7.2.2.1", "1", "Vertrouwensfuncties", "EARoot/EA7/EA2/EA2/EA1/EA309.htm", "4.png", "", "", "{341CA101-181C-440b-B4AA-E7EC06BB34E6}", "Package");
-tocTab[tocTab.length] = new Array("0.7.2.2.2", "1", "Co-creatie functies", "EARoot/EA7/EA2/EA2/EA2/EA323.htm", "4.png", "", "", "{0212E53E-42AC-40e0-B308-77EEFB048DF8}", "Package");
-tocTab[tocTab.length] = new Array("0.7.2.2.3", "1", "Ondersteunende functies", "EARoot/EA7/EA2/EA2/EA3/EA327.htm", "4.png", "", "", "{B7593B32-BE59-48b5-B535-BEA11E11859F}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.2.1", "1", "Vertrouwensfuncties", "EARoot/EA4/EA2/EA2/EA1/EA254.htm", "4.png", "", "", "{341CA101-181C-440b-B4AA-E7EC06BB34E6}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.2.2", "1", "Co-creatie functies", "EARoot/EA4/EA2/EA2/EA2/EA268.htm", "4.png", "", "", "{0212E53E-42AC-40e0-B308-77EEFB048DF8}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.2.3", "1", "Ondersteunende functies", "EARoot/EA4/EA2/EA2/EA3/EA272.htm", "4.png", "", "", "{B7593B32-BE59-48b5-B535-BEA11E11859F}", "Package");

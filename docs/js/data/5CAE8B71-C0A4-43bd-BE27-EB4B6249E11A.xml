@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.7.1.3:1", "", "Twiin Missie", "EARoot/EA7/EA1/EA3/EA128.htm", "9F0DDA8A-5_ArchiMate_Driver.png", "E6537", "0", "", "Class0","{FE20ED6F-6E9F-40a2-BE03-E233DC74FB01}");
-tocTab[tocTab.length] = new Array("0.7.1.3:2", "", "Twiin Visie", "EARoot/EA7/EA1/EA3/EA129.htm", "9F0DDA8A-5_ArchiMate_Goal.png", "E6538", "0", "", "Class0","{034885EE-3338-490b-9840-7A39EDFE6F56}");
+tocTab[tocTab.length] = new Array("0.4.1.3:1", "", "Twiin Missie", "EARoot/EA4/EA1/EA3/EA94.htm", "9F0DDA8A-5_ArchiMate_Driver.png", "E6537", "0", "", "Class0","{FE20ED6F-6E9F-40a2-BE03-E233DC74FB01}");
+tocTab[tocTab.length] = new Array("0.4.1.3:2", "", "Twiin Visie", "EARoot/EA4/EA1/EA3/EA95.htm", "9F0DDA8A-5_ArchiMate_Goal.png", "E6538", "0", "", "Class0","{034885EE-3338-490b-9840-7A39EDFE6F56}");
