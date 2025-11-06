@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.4.5.5:1", "", "Netwerk Service", "EARoot/EA4/EA5/EA5/EA560.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E6971", "0", "", "Activity0","{E22CD0A9-0975-4aa8-998D-80234DBFDEF1}");
-tocTab[tocTab.length] = new Array("0.4.5.5:2", "", "Netwerk Functie", "EARoot/EA4/EA5/EA5/EA561.htm", "9F0DDA8A-5_ArchiMate_TechnologyFunction.png", "E6972", "0", "", "Activity0","{2489BF0B-45EF-4b0a-A21C-A75AC442C5AE}");
-tocTab[tocTab.length] = new Array("0.4.5.5:3", "", "Netwerk Node", "EARoot/EA4/EA5/EA5/EA562.htm", "9F0DDA8A-5_ArchiMate_Node.png", "E6973", "0", "", "Class0","{E13B0953-2AF9-4230-AD1C-B0D4B8F0E3FB}");
-tocTab[tocTab.length] = new Array("0.4.5.5:4", "", "Netwerk", "EARoot/EA4/EA5/EA5/EA563.htm", "9F0DDA8A-5_ArchiMate_CommunicationNetwork.png", "E6974", "0", "", "Class0","{E9EE76F4-32E2-45bf-BFD9-F9797BC2A2D3}");
-tocTab[tocTab.length] = new Array("0.4.5.5:5", "", "Netwerk Pad", "EARoot/EA4/EA5/EA5/EA564.htm", "9F0DDA8A-5_ArchiMate_Path.png", "E6975", "0", "", "Class0","{3FFBE816-49AD-4f41-9F57-79306F85A65B}");
+tocTab[tocTab.length] = new Array("0.4.5.5:1", "", "Netwerk Service", "EARoot/EA4/EA5/EA5/EA559.htm", "9F0DDA8A-5_ArchiMate_TechnologyService.png", "E6971", "0", "", "Activity0","{E22CD0A9-0975-4aa8-998D-80234DBFDEF1}");
+tocTab[tocTab.length] = new Array("0.4.5.5:2", "", "Netwerk Functie", "EARoot/EA4/EA5/EA5/EA560.htm", "9F0DDA8A-5_ArchiMate_TechnologyFunction.png", "E6972", "0", "", "Activity0","{2489BF0B-45EF-4b0a-A21C-A75AC442C5AE}");
+tocTab[tocTab.length] = new Array("0.4.5.5:3", "", "Netwerk Node", "EARoot/EA4/EA5/EA5/EA561.htm", "9F0DDA8A-5_ArchiMate_Node.png", "E6973", "0", "", "Class0","{E13B0953-2AF9-4230-AD1C-B0D4B8F0E3FB}");
+tocTab[tocTab.length] = new Array("0.4.5.5:4", "", "Netwerk", "EARoot/EA4/EA5/EA5/EA562.htm", "9F0DDA8A-5_ArchiMate_CommunicationNetwork.png", "E6974", "0", "", "Class0","{E9EE76F4-32E2-45bf-BFD9-F9797BC2A2D3}");
+tocTab[tocTab.length] = new Array("0.4.5.5:5", "", "Netwerk Pad", "EARoot/EA4/EA5/EA5/EA563.htm", "9F0DDA8A-5_ArchiMate_Path.png", "E6975", "0", "", "Class0","{3FFBE816-49AD-4f41-9F57-79306F85A65B}");
