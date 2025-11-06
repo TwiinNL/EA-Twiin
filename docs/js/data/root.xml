@@ -1,1 +1,3 @@
 tocTab[tocTab.length] = new Array("0", "1", "EA-Twiin", "", "1.png", "", "", "{32A1E893-56C4-4f0b-A1B5-309AEB109A71}", "Package");
+tocTab[tocTab.length] = new Array("0", "2", "System", "", "1.png", "System");
+tocTab[tocTab.length] = new Array("0", "3", "Project Glossary", "glossary.htm", "26.png");

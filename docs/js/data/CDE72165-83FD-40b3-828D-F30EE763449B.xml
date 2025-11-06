@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.4.1.6.1", "1", "09.1 Vereisten - Twiin Deelnemers", "EARoot/EA4/EA1/EA6/EA1/EA157.htm", "4.png", "", "", "{F4D8A352-341A-44ae-B478-59F7C6CEE86C}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.6.2", "1", "09.2 Vereisten - Twiin Dienstverlener", "EARoot/EA4/EA1/EA6/EA2/EA191.htm", "4.png", "", "", "{67ECEDB1-2B3E-4f0a-9877-FF7E859755F0}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.6.3", "1", "09.3 Vereisten - GtK Beheer", "EARoot/EA4/EA1/EA6/EA3/EA201.htm", "4.png", "", "", "{9DB40F4D-834E-4f03-9F07-3C5034BC28E8}", "Package");
-tocTab[tocTab.length] = new Array("0.4.1.6.4", "1", "09.4 Vereisten - GtK", "EARoot/EA4/EA1/EA6/EA4/EA216.htm", "4.png", "", "", "{4309C5EA-E793-4bd6-A204-4575D95D7506}", "Package");
+tocTab[tocTab.length] = new Array("0.4.1.6.1", "1", "09.1 Vereisten - Twiin Deelnemers", "EARoot/EA4/EA1/EA6/EA1/EA169.htm", "4.png", "", "", "{F4D8A352-341A-44ae-B478-59F7C6CEE86C}", "Package");
+tocTab[tocTab.length] = new Array("0.4.1.6.2", "1", "09.2 Vereisten - Twiin Dienstverlener", "EARoot/EA4/EA1/EA6/EA2/EA203.htm", "4.png", "", "", "{67ECEDB1-2B3E-4f0a-9877-FF7E859755F0}", "Package");
+tocTab[tocTab.length] = new Array("0.4.1.6.3", "1", "09.3 Vereisten - GtK Beheer", "EARoot/EA4/EA1/EA6/EA3/EA213.htm", "4.png", "", "", "{9DB40F4D-834E-4f03-9F07-3C5034BC28E8}", "Package");
+tocTab[tocTab.length] = new Array("0.4.1.6.4", "1", "09.4 Vereisten - GtK", "EARoot/EA4/EA1/EA6/EA4/EA228.htm", "4.png", "", "", "{4309C5EA-E793-4bd6-A204-4575D95D7506}", "Package");
