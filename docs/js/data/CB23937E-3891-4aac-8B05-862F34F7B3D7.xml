@@ -1,5 +1,6 @@
-tocTab[tocTab.length] = new Array("0.4.2.1", "1", "Databeschikbaarheid diensten", "EARoot/EA4/EA2/EA1/EA259.htm", "4.png", "", "", "{8DA60EFE-C8BC-4541-A401-193FED2C43F4}", "Package");
-tocTab[tocTab.length] = new Array("0.4.2.2", "1", "Functies", "EARoot/EA4/EA2/EA2/EA262.htm", "4.png", "", "", "{1070681A-1D9A-47f4-90FD-5716103F1335}", "Package");
-tocTab[tocTab.length] = new Array("0.4.2.3", "1", "Processen", "EARoot/EA4/EA2/EA3/EA287.htm", "4.png", "", "", "{4027B38E-052C-403c-B885-44C227B63A74}", "Package");
-tocTab[tocTab.length] = new Array("0.4.2.4", "1", "Rollen", "EARoot/EA4/EA2/EA4/EA320.htm", "4.png", "", "", "{184657FC-F6B4-443d-8076-2C5219E0E03A}", "Package");
-tocTab[tocTab.length] = new Array("0.4.2.5", "1", "Twiin Afsprakenstelsel", "EARoot/EA4/EA2/EA5/EA343.htm", "4.png", "", "", "{694ECBB6-83F1-4b57-873F-ECCEECA8F961}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.1", "1", "Dienstverlening", "EARoot/EA4/EA2/EA1/EA260.htm", "4.png", "", "", "{1789D208-029A-4128-8209-D4606F082BB0}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.2", "1", "Twiin Dienstverlening", "EARoot/EA4/EA2/EA2/EA264.htm", "4.png", "", "", "{13C3D089-1F67-4ecf-BA66-49ACD45AA6E2}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.3", "1", "Functies", "EARoot/EA4/EA2/EA3/EA271.htm", "4.png", "", "", "{1070681A-1D9A-47f4-90FD-5716103F1335}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.4", "1", "Processen", "EARoot/EA4/EA2/EA4/EA296.htm", "4.png", "", "", "{4027B38E-052C-403c-B885-44C227B63A74}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.5", "1", "Rollen", "EARoot/EA4/EA2/EA5/EA329.htm", "4.png", "", "", "{184657FC-F6B4-443d-8076-2C5219E0E03A}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2.6", "1", "Twiin Afsprakenstelsel", "EARoot/EA4/EA2/EA6/EA352.htm", "4.png", "", "", "{694ECBB6-83F1-4b57-873F-ECCEECA8F961}", "Package");

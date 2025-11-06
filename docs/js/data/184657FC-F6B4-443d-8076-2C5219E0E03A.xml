@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.4.2.4:1", "", "Dossierhoudende zorgaanbieder", "EARoot/EA4/EA2/EA4/EA321.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E6916", "0", "", "Class0","{DB256F49-D200-466e-B1A4-8A4DE6B54DEB}");
-tocTab[tocTab.length] = new Array("0.4.2.4:2", "", "Niet-dossierhoudende zorgaanbieder", "EARoot/EA4/EA2/EA4/EA322.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E6917", "0", "", "Class0","{EA363ACB-DD5E-4f19-BF21-9A29925C902E}");
+tocTab[tocTab.length] = new Array("0.4.2.5:1", "", "Dossierhoudende zorgaanbieder", "EARoot/EA4/EA2/EA5/EA330.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E6916", "0", "", "Class0","{DB256F49-D200-466e-B1A4-8A4DE6B54DEB}");
+tocTab[tocTab.length] = new Array("0.4.2.5:2", "", "Niet-dossierhoudende zorgaanbieder", "EARoot/EA4/EA2/EA5/EA331.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E6917", "0", "", "Class0","{EA363ACB-DD5E-4f19-BF21-9A29925C902E}");

@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.4.5.1", "1", "Motivatie elementen", "EARoot/EA4/EA5/EA1/EA530.htm", "4.png", "", "", "{1FAC9DAB-6E58-44be-855A-0174609B3396}", "Package");
-tocTab[tocTab.length] = new Array("0.4.5.2", "", "Strategie elementen", "EARoot/EA4/EA5/EA2/EA534.htm", "4.png", "", "", "{DD512FB3-1296-4d3c-BBBD-461163E1248F}", "Package");
-tocTab[tocTab.length] = new Array("0.4.5.3", "1", "Business elementen", "EARoot/EA4/EA5/EA3/EA535.htm", "4.png", "", "", "{4FA99157-F5E8-484c-AA9E-6EEEF9DAC626}", "Package");
-tocTab[tocTab.length] = new Array("0.4.5.4", "1", "Applicatie & Data elementen", "EARoot/EA4/EA5/EA4/EA543.htm", "4.png", "", "", "{3DADF631-9CDE-43e2-A48B-B8DAB2DF2133}", "Package");
-tocTab[tocTab.length] = new Array("0.4.5.5", "1", "Netwerk elementen", "EARoot/EA4/EA5/EA5/EA550.htm", "4.png", "", "", "{7BC50DC1-6A7C-4656-80F2-0226DDFB8E35}", "Package");
-tocTab[tocTab.length] = new Array("0.4.5.6", "1", "Relaties", "EARoot/EA4/EA5/EA6/EA556.htm", "4.png", "", "", "{0F92D181-C8C4-403b-AEA6-9495FBB08584}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.1", "1", "Motivatie elementen", "EARoot/EA4/EA5/EA1/EA539.htm", "4.png", "", "", "{1FAC9DAB-6E58-44be-855A-0174609B3396}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.2", "", "Strategie elementen", "EARoot/EA4/EA5/EA2/EA543.htm", "4.png", "", "", "{DD512FB3-1296-4d3c-BBBD-461163E1248F}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.3", "1", "Business elementen", "EARoot/EA4/EA5/EA3/EA544.htm", "4.png", "", "", "{4FA99157-F5E8-484c-AA9E-6EEEF9DAC626}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.4", "1", "Applicatie & Data elementen", "EARoot/EA4/EA5/EA4/EA552.htm", "4.png", "", "", "{3DADF631-9CDE-43e2-A48B-B8DAB2DF2133}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.5", "1", "Netwerk elementen", "EARoot/EA4/EA5/EA5/EA559.htm", "4.png", "", "", "{7BC50DC1-6A7C-4656-80F2-0226DDFB8E35}", "Package");
+tocTab[tocTab.length] = new Array("0.4.5.6", "1", "Relaties", "EARoot/EA4/EA5/EA6/EA565.htm", "4.png", "", "", "{0F92D181-C8C4-403b-AEA6-9495FBB08584}", "Package");
