@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.4.2.9:1", "", "Contract", "EARoot/EA4/EA2/EA9/EA336.htm", "9F0DDA8A-5_ArchiMate_Contract.png", "E7087", "0", "", "Class0","{BBB31996-A1CC-479f-B0F8-6B23187BCD5F}");
+tocTab[tocTab.length] = new Array("0.4.2.9:2", "", "Samenwerkings voorwaarden", "EARoot/EA4/EA2/EA9/EA337.htm", "9F0DDA8A-5_ArchiMate_Contract.png", "E7107", "0", "", "Class0","{16DF3C7C-91FC-451a-A2CA-57679E0A4481}");
+tocTab[tocTab.length] = new Array("0.4.2.9:3", "", "Twiin Deelnemers overeenkomst", "EARoot/EA4/EA2/EA9/EA338.htm", "9F0DDA8A-5_ArchiMate_Contract.png", "E7094", "0", "", "Class0","{263042F2-5C12-4427-BD63-5D9CC14C7EA6}");
+tocTab[tocTab.length] = new Array("0.4.2.9:4", "", "Twiin Dienstverlenings overeenkomst", "EARoot/EA4/EA2/EA9/EA339.htm", "9F0DDA8A-5_ArchiMate_Contract.png", "E7095", "0", "", "Class0","{5FD8F929-2192-4612-889D-F2064C648276}");
