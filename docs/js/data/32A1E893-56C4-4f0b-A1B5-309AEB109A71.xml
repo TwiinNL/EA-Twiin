@@ -1,4 +1,4 @@
 tocTab[tocTab.length] = new Array("0.1", "1", "Toelichting werkomgeving", "EARoot/EA1/EA3.htm", "4.png", "", "", "{DD81C9CB-3AB3-4285-B847-2D40C26038FE}", "Package");
-tocTab[tocTab.length] = new Array("0.2", "1", "Twiin Bouwblokken overzicht", "EARoot/EA2/EA12.htm", "4.png", "", "", "{C88119FB-CF71-4830-9661-75F1A574EF20}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Bouwblokken overzicht", "EARoot/EA2/EA12.htm", "4.png", "", "", "{C88119FB-CF71-4830-9661-75F1A574EF20}", "Package");
 tocTab[tocTab.length] = new Array("0.3", "1", "Consistentie Twiin Afsprakenselsel", "EARoot/EA3/EA59.htm", "4.png", "", "", "{CDA77458-5428-4e1a-A729-A533B630D7B7}", "Package");
 tocTab[tocTab.length] = new Array("0.4", "1", "Elementen", "EARoot/EA4/EA61.htm", "4.png", "", "", "{C3E4B4A4-A434-4d1a-BCD9-D741CC1FBFB7}", "Package");
