@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.6.2.5:1", "", "Dossierhouder", "EARoot/EA6/EA2/EA5/EA311.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7096", "0", "", "Class0","{BAB88584-7B44-40e4-B964-A1A5FC289B18}");
-tocTab[tocTab.length] = new Array("0.6.2.5:2", "", "Dossier beschikbaarsteller", "EARoot/EA6/EA2/EA5/EA312.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7100", "0", "", "Class0","{57261295-C083-4615-8607-307ABB8CFF30}");
-tocTab[tocTab.length] = new Array("0.6.2.5:3", "", "Dossierverzender", "EARoot/EA6/EA2/EA5/EA313.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7099", "0", "", "Class0","{D0C75BB6-69B7-4d67-9899-27A603BE913C}");
-tocTab[tocTab.length] = new Array("0.6.2.5:4", "", "Dossierontvanger", "EARoot/EA6/EA2/EA5/EA314.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7097", "0", "", "Class0","{D3EB2B91-A87A-4baf-AE9B-7EBBB25513B3}");
-tocTab[tocTab.length] = new Array("0.6.2.5:5", "", "Dossierraadpleger", "EARoot/EA6/EA2/EA5/EA315.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7098", "0", "", "Class0","{92728C44-62CC-42b8-B59C-D76D5EE0EE2A}");
+tocTab[tocTab.length] = new Array("0.6.2.6:1", "", "Dossierhouder", "EARoot/EA6/EA2/EA6/EA328.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7096", "0", "", "Class0","{BAB88584-7B44-40e4-B964-A1A5FC289B18}");
+tocTab[tocTab.length] = new Array("0.6.2.6:2", "", "Dossier beschikbaarsteller", "EARoot/EA6/EA2/EA6/EA329.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7100", "0", "", "Class0","{57261295-C083-4615-8607-307ABB8CFF30}");
+tocTab[tocTab.length] = new Array("0.6.2.6:3", "", "Dossierverzender", "EARoot/EA6/EA2/EA6/EA330.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7099", "0", "", "Class0","{D0C75BB6-69B7-4d67-9899-27A603BE913C}");
+tocTab[tocTab.length] = new Array("0.6.2.6:4", "", "Dossierontvanger", "EARoot/EA6/EA2/EA6/EA331.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7097", "0", "", "Class0","{D3EB2B91-A87A-4baf-AE9B-7EBBB25513B3}");
+tocTab[tocTab.length] = new Array("0.6.2.6:5", "", "Dossierraadpleger", "EARoot/EA6/EA2/EA6/EA332.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7098", "0", "", "Class0","{92728C44-62CC-42b8-B59C-D76D5EE0EE2A}");

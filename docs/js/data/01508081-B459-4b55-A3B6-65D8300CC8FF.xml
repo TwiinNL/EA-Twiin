@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.3:1", "", "Verzenden vs raadpleegbaar maken", "EARoot/EA3/EA13.htm", "175.png", "549", "0", "", "Logical diagram0","{A0038CB6-D08B-4eb4-86C2-13595DB046E7}");
-tocTab[tocTab.length] = new Array("0.3:2", "", "Dossiervoering - vertrouwensfuncties", "EARoot/EA3/EA15.htm", "175.png", "552", "0", "", "Logical diagram0","{BF9269EB-E6D5-43ca-8B4F-79706ED2C839}");
-tocTab[tocTab.length] = new Array("0.3:3", "", "Verzenden - vertrouwensfuncties", "EARoot/EA3/EA17.htm", "175.png", "550", "0", "", "Logical diagram0","{5FA2A535-AE88-4726-A228-8502E16824ED}");
-tocTab[tocTab.length] = new Array("0.3:4", "", "Raadpleegbaar maken - vertrouwensfuncties", "EARoot/EA3/EA19.htm", "175.png", "551", "0", "", "Logical diagram0","{CBCB86AF-A1E8-4366-BE88-ECF443671D89}");
+tocTab[tocTab.length] = new Array("0.3:1", "", "Verzenden vs raadpleegbaar maken", "EARoot/EA3/EA14.htm", "175.png", "549", "0", "", "Logical diagram0","{A0038CB6-D08B-4eb4-86C2-13595DB046E7}");
+tocTab[tocTab.length] = new Array("0.3:2", "", "Dossiervoering - vertrouwensfuncties", "EARoot/EA3/EA16.htm", "175.png", "552", "0", "", "Logical diagram0","{BF9269EB-E6D5-43ca-8B4F-79706ED2C839}");
+tocTab[tocTab.length] = new Array("0.3:3", "", "Verzenden - vertrouwensfuncties", "EARoot/EA3/EA18.htm", "175.png", "550", "0", "", "Logical diagram0","{5FA2A535-AE88-4726-A228-8502E16824ED}");
+tocTab[tocTab.length] = new Array("0.3:4", "", "Raadpleegbaar maken - vertrouwensfuncties", "EARoot/EA3/EA20.htm", "175.png", "551", "0", "", "Logical diagram0","{CBCB86AF-A1E8-4366-BE88-ECF443671D89}");
