@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.6.3:1", "", "Gemeenschappelijke voorziening", "EARoot/EA6/EA3/EA486.htm", "9F0DDA8A-5_ArchiMate_ApplicationComponent.png", "E7101", "0", "", "Component0","{34E873DB-6D59-472a-96AC-68A415E0BD43}");
-tocTab[tocTab.length] = new Array("0.6.3:2", "", "Gevalideerd Twiin Knooppunt", "EARoot/EA6/EA3/EA487.htm", "9F0DDA8A-5_ArchiMate_ApplicationComponent.png", "E7102", "0", "", "Component0","{45E6A35A-FDB6-4c8e-91C1-ABCC866C3BA5}");
-tocTab[tocTab.length] = new Array("0.6.3:3", "", "Twiin Serviceportaal", "EARoot/EA6/EA3/EA488.htm", "9F0DDA8A-5_ArchiMate_ApplicationComponent.png", "E7116", "0", "", "Component0","{F479CB77-2103-4b75-9BB7-C53603201F64}");
-tocTab[tocTab.length] = new Array("0.6.3.1", "1", "Communicatiepatronen", "EARoot/EA6/EA3/EA1/EA491.htm", "4.png", "", "", "{9FFEB1D0-C9AC-4efd-8564-4A618A1FE629}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3:1", "", "Gemeenschappelijke voorziening", "EARoot/EA6/EA3/EA511.htm", "9F0DDA8A-5_ArchiMate_ApplicationComponent.png", "E7101", "0", "", "Component0","{34E873DB-6D59-472a-96AC-68A415E0BD43}");
+tocTab[tocTab.length] = new Array("0.6.3:2", "", "Gevalideerd Twiin Knooppunt", "EARoot/EA6/EA3/EA512.htm", "9F0DDA8A-5_ArchiMate_ApplicationComponent.png", "E7102", "0", "", "Component0","{45E6A35A-FDB6-4c8e-91C1-ABCC866C3BA5}");
+tocTab[tocTab.length] = new Array("0.6.3:3", "", "Twiin Serviceportaal", "EARoot/EA6/EA3/EA513.htm", "9F0DDA8A-5_ArchiMate_ApplicationComponent.png", "E7116", "0", "", "Component0","{F479CB77-2103-4b75-9BB7-C53603201F64}");
+tocTab[tocTab.length] = new Array("0.6.3.1", "1", "Communicatiepatronen", "EARoot/EA6/EA3/EA1/EA516.htm", "4.png", "", "", "{9FFEB1D0-C9AC-4efd-8564-4A618A1FE629}", "Package");
