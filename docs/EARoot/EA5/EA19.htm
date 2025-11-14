@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>IH02. Generiek deel</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<!-- START: TOOLTIP CODE -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js"></script>
+<!-- EIND: TOOLTIP CODE -->
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+		{			
+			// START: TOOLTIP CODE
+			$("area").mouseover(function() { mapRectangleMouseOver(this); } );
+			$("area").mouseout(function() { mapRectangleMouseOut(this); } );
+			// EIND: TOOLTIP CODE
+			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1>Twiin Enterprise Architectuur werkomgeving</h1>
+			<!-- <img class="header_image" src="../../images/Twiin.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/Twiin.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../index.htm">EA-Twiin</a> / <a href="EA63.htm">Architectuur Twiin Afsprakenselsel</a> / <a href="EA19.htm">IH02. Generiek deel</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<!-- <div class="projectBrowserTitle">Project: </div> -->
+						<div class="projectBrowserTitle"></div>
+						<ul>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA17.htm">IH01. Afsprakenstelsel</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA19.htm">IH02. Generiek deel</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA21.htm">IH03. Implementatiewijzers</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA23.htm">IH04. Ontwikkelsupplement</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA25.htm">SH01. Principes</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA27.htm">SH02. Vertrouwensmodel</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA29.htm">SH03. Voorwaarden en Technische kern</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA31.htm">VH01. Principes</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA33.htm">VH02. Vertrouwensmodel</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA35.htm">VH03. Voorwaarden</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA37.htm">VH04. Technische kern - communicatiepatronen</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA39.htm">SV01a. Identificatie - Patiënt </a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA41.htm">SV01b. Identificatie - Zorgverlener</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA43.htm">SV01c. Identificatie - Zorgaanbieder</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA45.htm">SV02a. Authenticatie - Zorgverlener</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA47.htm">SV02b. Authenticatie - Zorgaanbieder</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA49.htm">SV03. Autorisatie - Zorgverlener</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA51.htm">SV04. Behandelrelatie</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA53.htm">SV05. Toestemming</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA55.htm">SV06a. Logging - Intern</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA57.htm">SV06. Logging - Patiënt</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA59.htm">SV06. Logging - Wederzijds</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA61.htm">SV07. Verantwoording</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<!-- CUSTOM -->
+	<div class=previewPanel></div>
+	<div class="ObjectTitle">IH02. Generiek deel</div>
+	<div class="ObjectDetailsNotes">&lt;b&gt;Indeling van het Generieke deel van het Twiin Afsprakenstelsel&lt;/b&gt;&lt;br/&gt;Het generiek deel van het Twiin afsprakenstelsel bevat onderwepen die algemeen van toepassing zijn en generiek herbruikbare juridische, organisatorische, en technische afspraken.&lt;br/&gt;</div>
+
+	<hr>
+	<!-- END CUSTOM -->
+	<div class=diagram_image> 
+<img src="EA20.png" usemap="#EA20" border="0" />
+
+<MAP NAME="EA20">
+<area shape="rect" coords="1243,723,1333,793" href="../EA6/EA2/EA12/EA467.htm" target="_self">
+<area shape="rect" coords="1243,636,1333,706" href="../EA6/EA2/EA12/EA466.htm" target="_self">
+<area shape="rect" coords="1243,549,1333,622" href="../EA6/EA2/EA12/EA465.htm" target="_self">
+<area shape="rect" coords="1243,462,1333,535" href="../EA6/EA2/EA12/EA464.htm" target="_self">
+<area shape="rect" coords="1243,375,1333,448" href="../EA6/EA2/EA12/EA463.htm" target="_self">
+<area shape="rect" coords="1218,279,1308,349" href="../EA6/EA2/EA12/EA391.htm" target="_self">
+<area shape="rect" coords="1110,636,1200,706" href="../EA6/EA2/EA12/EA462.htm" target="_self">
+<area shape="rect" coords="1110,549,1200,619" href="../EA6/EA2/EA12/EA461.htm" target="_self">
+<area shape="rect" coords="1110,462,1200,535" href="../EA6/EA2/EA12/EA460.htm" target="_self">
+<area shape="rect" coords="1110,375,1200,448" href="../EA6/EA2/EA12/EA459.htm" target="_self">
+<area shape="rect" coords="1084,279,1174,349" href="../EA6/EA2/EA12/EA390.htm" target="_self">
+<area shape="rect" coords="974,636,1064,706" href="../EA6/EA2/EA12/EA471.htm" target="_self">
+<area shape="rect" coords="974,549,1064,619" href="../EA6/EA2/EA12/EA470.htm" target="_self">
+<area shape="rect" coords="974,462,1064,532" href="../EA6/EA2/EA12/EA469.htm" target="_self">
+<area shape="rect" coords="974,375,1064,445" href="../EA6/EA2/EA12/EA468.htm" target="_self">
+<area shape="rect" coords="950,279,1040,349" href="../EA6/EA2/EA12/EA389.htm" target="_self">
+<area shape="rect" coords="816,279,906,349" href="../EA6/EA2/EA12/EA388.htm" target="_self">
+<area shape="rect" coords="710,810,800,880" href="../EA6/EA2/EA12/EA414.htm" target="_self">
+<area shape="rect" coords="710,723,800,793" href="../EA6/EA2/EA12/EA413.htm" target="_self">
+<area shape="rect" coords="710,636,800,706" href="../EA6/EA2/EA12/EA412.htm" target="_self">
+<area shape="rect" coords="710,549,800,619" href="../EA6/EA2/EA12/EA411.htm" target="_self">
+<area shape="rect" coords="710,462,800,532" href="../EA6/EA2/EA12/EA410.htm" target="_self">
+<area shape="rect" coords="710,375,800,445" href="../EA6/EA2/EA12/EA409.htm" target="_self">
+<area shape="rect" coords="682,279,772,349" href="../EA6/EA2/EA12/EA387.htm" target="_self">
+<area shape="rect" coords="574,897,664,967" href="../EA6/EA2/EA12/EA483.htm" target="_self">
+<area shape="rect" coords="574,810,664,880" href="../EA6/EA2/EA12/EA482.htm" target="_self">
+<area shape="rect" coords="574,723,664,793" href="../EA6/EA2/EA12/EA481.htm" target="_self">
+<area shape="rect" coords="574,636,664,706" href="../EA6/EA2/EA12/EA480.htm" target="_self">
+<area shape="rect" coords="574,549,664,619" href="../EA6/EA2/EA12/EA479.htm" target="_self">
+<area shape="rect" coords="574,462,664,532" href="../EA6/EA2/EA12/EA478.htm" target="_self">
+<area shape="rect" coords="574,375,664,445" href="../EA6/EA2/EA12/EA477.htm" target="_self">
+<area shape="rect" coords="548,278,638,348" href="../EA6/EA2/EA12/EA386.htm" target="_self">
+<area shape="rect" coords="442,636,532,706" href="../EA6/EA2/EA12/EA476.htm" target="_self">
+<area shape="rect" coords="442,549,532,619" href="../EA6/EA2/EA12/EA475.htm" target="_self">
+<area shape="rect" coords="442,461,532,531" href="../EA6/EA2/EA12/EA474.htm" target="_self">
+<area shape="rect" coords="442,375,532,445" href="../EA6/EA2/EA12/EA473.htm" target="_self">
+<area shape="rect" coords="414,277,504,347" href="../EA6/EA2/EA12/EA385.htm" target="_self">
+<area shape="rect" coords="304,375,394,445" href="../EA6/EA2/EA12/EA398.htm" target="_self">
+<area shape="rect" coords="280,276,370,346" href="../EA6/EA2/EA12/EA384.htm" target="_self">
+<area shape="rect" coords="37,549,127,619" href="../EA6/EA2/EA12/EA397.htm" target="_self">
+<area shape="rect" coords="37,462,127,532" href="../EA6/EA2/EA12/EA396.htm" target="_self">
+<area shape="rect" coords="37,375,127,445" href="../EA6/EA2/EA12/EA395.htm" target="_self">
+<area shape="rect" coords="146,275,236,345" href="../EA6/EA2/EA12/EA383.htm" target="_self">
+<area shape="rect" coords="12,275,102,345" href="../EA6/EA2/EA12/EA382.htm" target="_self">
+<area shape="rect" coords="860,140,950,210" href="../EA6/EA2/EA12/EA379.htm" target="_self">
+<area shape="rect" coords="672,140,762,210" href="../EA6/EA2/EA12/EA381.htm" target="_self">
+<area shape="rect" coords="497,140,587,210" href="../EA6/EA2/EA12/EA380.htm" target="_self">
+<area shape="rect" coords="704,10,794,80" href="../EA6/EA2/EA12/EA378.htm" target="_self">
+</MAP>
+ </div>
+	<!-- <div class="ObjectTitle">IH02. Generiek deel : Business Layer diagram</div> -->
+		<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<!-- REMOVE
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12-9-2025 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">30-9-2025 14:17:23</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.3.x</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{619156CF-439D-4122-B933-BFB897156F53}</td>
+		</tr>
+		-->
+		<!-- CUSTOM -->
+		<hr>
+		<td width="15%" class="ObjectDetailsTopic">Gemaakt:</td>
+			<td width="85%" class="ObjectDetailsValue">12-9-2025 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Aangepast:</td>
+			<td width="85%" class="ObjectDetailsValue">30-9-2025 14:17:23</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Auteur:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+	</table>
+	<!-- CUSTOM -->
+	<!-- <hr>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td class="ObjectDetailsTopic">Reactie:</td>
+			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+IH02. Generiek deel&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
+		</tr>
+	<table> -->
+	<hr>
+	<!-- END CUSTOM -->
+	<!-- <div class="ObjectDetailsNotes">&lt;b&gt;Indeling van het Generieke deel van het Twiin Afsprakenstelsel&lt;/b&gt;&lt;br/&gt;Het generiek deel van het Twiin afsprakenstelsel bevat onderwepen die algemeen van toepassing zijn en generiek herbruikbare juridische, organisatorische, en technische afspraken.&lt;br/&gt;</div>
+ -->
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>

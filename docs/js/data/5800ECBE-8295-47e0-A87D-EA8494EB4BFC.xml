@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.4.2.11:1", "", "Bewijs van Validatie GtK", "EARoot/EA4/EA2/EA11/EA351.htm", "9F0DDA8A-5_ArchiMate_BusinessObject.png", "E7089", "0", "", "Class0","{21612D2E-E168-4961-9CA7-3B67A07FE325}");
-tocTab[tocTab.length] = new Array("0.4.2.11:2", "", "Bewijs van Validatie Twiin deelnemer", "EARoot/EA4/EA2/EA11/EA352.htm", "9F0DDA8A-5_ArchiMate_BusinessObject.png", "E7088", "0", "", "Class0","{C3A05290-96FF-47fa-9971-F35DC4C81917}");
+tocTab[tocTab.length] = new Array("0.6.2.11:1", "", "Bewijs van Validatie GtK", "EARoot/EA6/EA2/EA11/EA355.htm", "9F0DDA8A-5_ArchiMate_BusinessObject.png", "E7089", "0", "", "Class0","{21612D2E-E168-4961-9CA7-3B67A07FE325}");
+tocTab[tocTab.length] = new Array("0.6.2.11:2", "", "Bewijs van Validatie Twiin deelnemer", "EARoot/EA6/EA2/EA11/EA356.htm", "9F0DDA8A-5_ArchiMate_BusinessObject.png", "E7088", "0", "", "Class0","{C3A05290-96FF-47fa-9971-F35DC4C81917}");
