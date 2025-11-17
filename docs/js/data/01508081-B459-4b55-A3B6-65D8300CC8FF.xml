@@ -2,3 +2,6 @@ tocTab[tocTab.length] = new Array("0.3:1", "", "Verzenden vs raadpleegbaar maken
 tocTab[tocTab.length] = new Array("0.3:2", "", "Dossiervoering - vertrouwensfuncties", "EARoot/EA3/EA16.htm", "175.png", "552", "0", "", "Logical diagram0","{BF9269EB-E6D5-43ca-8B4F-79706ED2C839}");
 tocTab[tocTab.length] = new Array("0.3:3", "", "Verzenden - vertrouwensfuncties", "EARoot/EA3/EA18.htm", "175.png", "550", "0", "", "Logical diagram0","{5FA2A535-AE88-4726-A228-8502E16824ED}");
 tocTab[tocTab.length] = new Array("0.3:4", "", "Raadpleegbaar maken - vertrouwensfuncties", "EARoot/EA3/EA20.htm", "175.png", "551", "0", "", "Logical diagram0","{CBCB86AF-A1E8-4366-BE88-ECF443671D89}");
+tocTab[tocTab.length] = new Array("0.3:5", "", "Kaders voor dossiervoering", "EARoot/EA3/EA22.htm", "175.png", "563", "0", "", "Logical diagram0","{B7EB6B9A-4584-4754-B81E-671F1CE47D87}");
+tocTab[tocTab.length] = new Array("0.3:6", "", "Kaders voor verzending van gezondheidsgegevens", "EARoot/EA3/EA24.htm", "175.png", "564", "0", "", "Logical diagram0","{2F1E6BE5-7D5A-42a8-8ACC-1292A39FF076}");
+tocTab[tocTab.length] = new Array("0.3:7", "", "Kaders voor raapleegbaar maken van gezondheidsgegevens", "EARoot/EA3/EA26.htm", "175.png", "565", "0", "", "Logical diagram0","{70D0CAE6-CAE8-4015-8AE2-F1A0904B5FF2}");

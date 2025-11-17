@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.6.1.1", "1", "Twiin Doelstellingen", "EARoot/EA6/EA1/EA1/EA92.htm", "4.png", "", "", "{BBBD5A0E-0796-4ca7-AD52-BA6F43DD4C8B}", "Package");
-tocTab[tocTab.length] = new Array("0.6.1.2", "1", "Twiin Principes", "EARoot/EA6/EA1/EA2/EA98.htm", "4.png", "", "", "{8D06100A-0230-4efe-9986-A1B3449B3978}", "Package");
-tocTab[tocTab.length] = new Array("0.6.1.3", "1", "Wet- en regelgeving", "EARoot/EA6/EA1/EA3/EA131.htm", "4.png", "", "", "{BFA7949D-EC67-4a6d-97D3-30C8EEF8B120}", "Package");
-tocTab[tocTab.length] = new Array("0.6.1.4", "1", "Normen", "EARoot/EA6/EA1/EA4/EA143.htm", "4.png", "", "", "{8485C1EC-128B-41f5-89D8-A4C06BF783A3}", "Package");
-tocTab[tocTab.length] = new Array("0.6.1.5", "1", "Vereisten - Vertrouwensmodel", "EARoot/EA6/EA1/EA5/EA159.htm", "4.png", "", "", "{5A92EE46-4666-45c1-A7C9-436E66AC2D33}", "Package");
-tocTab[tocTab.length] = new Array("0.6.1.6", "1", "Vereisten - Twin Voorwaarden", "EARoot/EA6/EA1/EA6/EA172.htm", "4.png", "", "", "{CDE72165-83FD-40b3-828D-F30EE763449B}", "Package");
-tocTab[tocTab.length] = new Array("0.6.1.7", "1", "Vereisten - Twiin Technische kern", "EARoot/EA6/EA1/EA7/EA243.htm", "4.png", "", "", "{89E7EDB2-1B5D-45c0-AC89-3E96C67D773A}", "Package");
+tocTab[tocTab.length] = new Array("0.6.1.1", "1", "Twiin Doelstellingen", "EARoot/EA6/EA1/EA1/EA98.htm", "4.png", "", "", "{BBBD5A0E-0796-4ca7-AD52-BA6F43DD4C8B}", "Package");
+tocTab[tocTab.length] = new Array("0.6.1.2", "1", "Twiin Principes", "EARoot/EA6/EA1/EA2/EA104.htm", "4.png", "", "", "{8D06100A-0230-4efe-9986-A1B3449B3978}", "Package");
+tocTab[tocTab.length] = new Array("0.6.1.3", "1", "Wet- en regelgeving", "EARoot/EA6/EA1/EA3/EA137.htm", "4.png", "", "", "{BFA7949D-EC67-4a6d-97D3-30C8EEF8B120}", "Package");
+tocTab[tocTab.length] = new Array("0.6.1.4", "1", "Normen", "EARoot/EA6/EA1/EA4/EA149.htm", "4.png", "", "", "{8485C1EC-128B-41f5-89D8-A4C06BF783A3}", "Package");
+tocTab[tocTab.length] = new Array("0.6.1.5", "1", "Vereisten - Vertrouwensmodel", "EARoot/EA6/EA1/EA5/EA165.htm", "4.png", "", "", "{5A92EE46-4666-45c1-A7C9-436E66AC2D33}", "Package");
+tocTab[tocTab.length] = new Array("0.6.1.6", "1", "Vereisten - Twin Voorwaarden", "EARoot/EA6/EA1/EA6/EA178.htm", "4.png", "", "", "{CDE72165-83FD-40b3-828D-F30EE763449B}", "Package");
+tocTab[tocTab.length] = new Array("0.6.1.7", "1", "Vereisten - Twiin Technische kern", "EARoot/EA6/EA1/EA7/EA249.htm", "4.png", "", "", "{89E7EDB2-1B5D-45c0-AC89-3E96C67D773A}", "Package");
