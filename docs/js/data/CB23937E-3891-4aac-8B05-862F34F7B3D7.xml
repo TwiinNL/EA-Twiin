@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.6.2.1", "1", "Zorgaanbieder Dienstverlening", "EARoot/EA6/EA2/EA1/EA283.htm", "4.png", "", "", "{1789D208-029A-4128-8209-D4606F082BB0}", "Package");
-tocTab[tocTab.length] = new Array("0.6.2.2", "1", "Zorgaanbieder functies", "EARoot/EA6/EA2/EA2/EA287.htm", "4.png", "", "", "{958870BC-4EBC-4c26-BE17-6C955878E15F}", "Package");
-tocTab[tocTab.length] = new Array("0.6.2.3", "1", "Informatie objecten", "EARoot/EA6/EA2/EA3/EA292.htm", "4.png", "", "", "{CA09820E-A389-4759-A54B-6E1210D9C777}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.1", "1", "Zorgaanbieder Dienstverlening", "EARoot/EA6/EA2/EA1/EA285.htm", "4.png", "", "", "{1789D208-029A-4128-8209-D4606F082BB0}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.2", "1", "Zorgaanbieder functies", "EARoot/EA6/EA2/EA2/EA289.htm", "4.png", "", "", "{958870BC-4EBC-4c26-BE17-6C955878E15F}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.3", "1", "Informatie objecten", "EARoot/EA6/EA2/EA3/EA294.htm", "4.png", "", "", "{CA09820E-A389-4759-A54B-6E1210D9C777}", "Package");
 tocTab[tocTab.length] = new Array("0.6.2.4", "1", "Vertrouwensfuncties", "EARoot/EA6/EA2/EA4/EA298.htm", "4.png", "", "", "{341CA101-181C-440b-B4AA-E7EC06BB34E6}", "Package");
 tocTab[tocTab.length] = new Array("0.6.2.5", "1", "Actoren", "EARoot/EA6/EA2/EA5/EA329.htm", "4.png", "", "", "{CA577E38-F5B6-49fd-A8DE-920008E50DDF}", "Package");
 tocTab[tocTab.length] = new Array("0.6.2.6", "1", "Rollen", "EARoot/EA6/EA2/EA6/EA333.htm", "4.png", "", "", "{184657FC-F6B4-443d-8076-2C5219E0E03A}", "Package");
