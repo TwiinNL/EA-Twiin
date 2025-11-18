@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.6.3.1:1", "", "Expose", "EARoot/EA6/EA3/EA1/EA541.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E7184", "0", "", "Activity0","{41E9F59B-91E2-4dee-934C-DC53C211C454}");
+tocTab[tocTab.length] = new Array("0.6.3.1:2", "", "Notified pull", "EARoot/EA6/EA3/EA1/EA542.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E7187", "0", "", "Activity0","{BC945724-BE59-4dd2-B2B5-98DBC9FC7E72}");
+tocTab[tocTab.length] = new Array("0.6.3.1:3", "", "Notify", "EARoot/EA6/EA3/EA1/EA543.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E7186", "0", "", "Activity0","{F5481015-FB40-4fba-B20B-32CC49C089D6}");
+tocTab[tocTab.length] = new Array("0.6.3.1:4", "", "Push", "EARoot/EA6/EA3/EA1/EA544.htm", "9F0DDA8A-5_ArchiMate_ApplicationService.png", "E7182", "0", "", "Activity0","{DD74C083-B6C9-47d2-9DC2-01CE14AA6808}");
