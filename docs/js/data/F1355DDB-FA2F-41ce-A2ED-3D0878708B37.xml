@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.6.2.2:1", "", "Ontvangen van gezondheidsgegevens", "EARoot/EA6/EA2/EA2/EA288.htm", "9F0DDA8A-5_ArchiMate_BusinessProcess.png", "E7180", "0", "", "Activity0","{E0A18BD0-58F6-46c8-BF1F-AD6B8EAA783D}");
-tocTab[tocTab.length] = new Array("0.6.2.2:2", "", "Opvragen gezondheidsgegevens", "EARoot/EA6/EA2/EA2/EA289.htm", "9F0DDA8A-5_ArchiMate_BusinessProcess.png", "E7181", "0", "", "Activity0","{4B3C4291-C835-4dbb-9F82-BCC55E6E733D}");
+tocTab[tocTab.length] = new Array("0.6.2.2:1", "", "Ontvangen van gezondheidsgegevens", "EARoot/EA6/EA2/EA2/EA286.htm", "9F0DDA8A-5_ArchiMate_BusinessProcess.png", "E7180", "0", "", "Activity0","{E0A18BD0-58F6-46c8-BF1F-AD6B8EAA783D}");
+tocTab[tocTab.length] = new Array("0.6.2.2:2", "", "Opvragen gezondheidsgegevens", "EARoot/EA6/EA2/EA2/EA287.htm", "9F0DDA8A-5_ArchiMate_BusinessProcess.png", "E7181", "0", "", "Activity0","{4B3C4291-C835-4dbb-9F82-BCC55E6E733D}");

@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.6.2.7:1", "", "Cliënt", "EARoot/EA6/EA2/EA7/EA333.htm", "9F0DDA8A-5_ArchiMate_BusinessActor.png", "E7146", "0", "", "Class0","{C367374F-6936-4b11-8D6F-92C351A5D576}");
-tocTab[tocTab.length] = new Array("0.6.2.7:2", "", "Zorgaanbieder", "EARoot/EA6/EA2/EA7/EA334.htm", "9F0DDA8A-5_ArchiMate_BusinessActor.png", "E7147", "0", "", "Class0","{B36B2017-B756-41ba-8183-5A97DDCF5C40}");
-tocTab[tocTab.length] = new Array("0.6.2.7:3", "", "Zorgverlener", "EARoot/EA6/EA2/EA7/EA335.htm", "9F0DDA8A-5_ArchiMate_BusinessActor.png", "E7148", "0", "", "Class0","{2527F8C6-23E9-4d8f-925B-B62A3A1DD9CF}");
+tocTab[tocTab.length] = new Array("0.6.2.7:1", "", "Cliënt", "EARoot/EA6/EA2/EA7/EA331.htm", "9F0DDA8A-5_ArchiMate_BusinessActor.png", "E7146", "0", "", "Class0","{C367374F-6936-4b11-8D6F-92C351A5D576}");
+tocTab[tocTab.length] = new Array("0.6.2.7:2", "", "Zorgaanbieder", "EARoot/EA6/EA2/EA7/EA332.htm", "9F0DDA8A-5_ArchiMate_BusinessActor.png", "E7147", "0", "", "Class0","{B36B2017-B756-41ba-8183-5A97DDCF5C40}");
+tocTab[tocTab.length] = new Array("0.6.2.7:3", "", "Zorgverlener", "EARoot/EA6/EA2/EA7/EA333.htm", "9F0DDA8A-5_ArchiMate_BusinessActor.png", "E7148", "0", "", "Class0","{2527F8C6-23E9-4d8f-925B-B62A3A1DD9CF}");
