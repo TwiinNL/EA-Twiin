@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>VH01. Principes</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<!-- START: TOOLTIP CODE -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js"></script>
+<!-- EIND: TOOLTIP CODE -->
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+		{			
+			// START: TOOLTIP CODE
+			$("area").mouseover(function() { mapRectangleMouseOver(this); } );
+			$("area").mouseout(function() { mapRectangleMouseOut(this); } );
+			// EIND: TOOLTIP CODE
+			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1>Twiin Enterprise Architectuur werkomgeving</h1>
+			<!-- <img class="header_image" src="../../images/Twiin.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/Twiin.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../index.htm">EA-Twiin</a> / <a href="EA64.htm">Architectuur Twiin Afsprakenselsel</a> / <a href="EA32.htm">VH01. Principes</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<!-- <div class="projectBrowserTitle">Project: </div> -->
+						<div class="projectBrowserTitle"></div>
+						<ul>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA18.htm">IH01. Afsprakenstelsel</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA20.htm">IH02. Generiek deel</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA22.htm">IH03. Implementatiewijzers</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA24.htm">IH04. Ontwikkelsupplement</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA26.htm">SH01. Principes</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA28.htm">SH02. Vertrouwensmodel</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA30.htm">SH03. Voorwaarden en Technische kern</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA32.htm">VH01. Principes</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA34.htm">VH02. Vertrouwensmodel</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA36.htm">VH03. Voorwaarden</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA38.htm">VH04. Technische kern - communicatiepatronen</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA40.htm">SV01a. Identificatie - Patiënt </a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA42.htm">SV01b. Identificatie - Zorgverlener</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA44.htm">SV01c. Identificatie - Zorgaanbieder</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA46.htm">SV02a. Authenticatie - Zorgverlener</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA48.htm">SV02b. Authenticatie - Zorgaanbieder</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA50.htm">SV03. Autorisatie - Zorgverlener</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA52.htm">SV04. Behandelrelatie</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA54.htm">SV05. Toestemming</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA56.htm">SV06a. Logging - Intern</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA58.htm">SV06. Logging - Patiënt</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA60.htm">SV06. Logging - Wederzijds</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA62.htm">SV07. Verantwoording</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<!-- CUSTOM -->
+	<div class=previewPanel></div>
+	<div class="ObjectTitle">VH01. Principes</div>
+	<div class="ObjectDetailsNotes">&lt;b&gt;Vereisten in hoofdstuk Twiin Principes&lt;/b&gt;&lt;br/&gt;Twiin-principes zijn door de Twiin-organisatie zelf vastgestelde richtlijnen en vangrails waarbinnen het architectuurontwerp moet blijven. Tijdens de doorontwikkeling van het afsprakenstelsel wordt steeds getoetst op conformiteit met deze principes (architectuurgovernance).&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Toetsing implicaties&lt;/b&gt;&lt;br/&gt;Wijzigingen binnen het afsprakenstelsel worden primair beoordeeld op hun impact op de Twiin-principes. Deze toetsing vindt zo vroeg mogelijk,&#160;&#160;plaats in het doorontwikkelproces en daarna regelmatig herhaald tot release. Het doel is om conformiteit te waarborgen of, indien strikt noodzakelijk, tijdelijke afwijkingen op een gecontroleerde manier te beheren.&lt;br/&gt;</div>
+
+	<hr>
+	<!-- END CUSTOM -->
+	<div class=diagram_image> 
+<img src="EA33.png" usemap="#EA33" border="0" />
+
+<MAP NAME="EA33">
+<area shape="rect" coords="567,18,657,88" href="../EA6/EA2/EA16/EA521.htm" target="_self">
+<area shape="rect" coords="1131,863,1231,933" href="../EA6/EA1/EA2/EA128.htm" target="_self">
+<area shape="rect" coords="1131,769,1231,839" href="../EA6/EA1/EA2/EA133.htm" target="_self">
+<area shape="rect" coords="1131,675,1231,745" href="../EA6/EA1/EA2/EA127.htm" target="_self">
+<area shape="rect" coords="1131,581,1231,651" href="../EA6/EA1/EA2/EA129.htm" target="_self">
+<area shape="rect" coords="1131,487,1231,557" href="../EA6/EA1/EA2/EA132.htm" target="_self">
+<area shape="rect" coords="1131,393,1231,463" href="../EA6/EA1/EA2/EA131.htm" target="_self">
+<area shape="rect" coords="1131,299,1231,369" href="../EA6/EA1/EA2/EA130.htm" target="_self">
+<area shape="rect" coords="975,487,1075,557" href="../EA6/EA1/EA2/EA125.htm" target="_self">
+<area shape="rect" coords="975,393,1075,463" href="../EA6/EA1/EA2/EA124.htm" target="_self">
+<area shape="rect" coords="975,299,1075,369" href="../EA6/EA1/EA2/EA126.htm" target="_self">
+<area shape="rect" coords="820,393,920,463" href="../EA6/EA1/EA2/EA123.htm" target="_self">
+<area shape="rect" coords="668,581,768,651" href="../EA6/EA1/EA2/EA121.htm" target="_self">
+<area shape="rect" coords="668,393,768,463" href="../EA6/EA1/EA2/EA120.htm" target="_self">
+<area shape="rect" coords="668,299,768,369" href="../EA6/EA1/EA2/EA122.htm" target="_self">
+<area shape="rect" coords="517,299,617,369" href="../EA6/EA1/EA2/EA119.htm" target="_self">
+<area shape="rect" coords="368,487,468,557" href="../EA6/EA1/EA2/EA117.htm" target="_self">
+<area shape="rect" coords="368,393,468,463" href="../EA6/EA1/EA2/EA118.htm" target="_self">
+<area shape="rect" coords="368,299,468,369" href="../EA6/EA1/EA2/EA116.htm" target="_self">
+<area shape="rect" coords="215,393,315,463" href="../EA6/EA1/EA2/EA114.htm" target="_self">
+<area shape="rect" coords="215,299,315,369" href="../EA6/EA1/EA2/EA115.htm" target="_self">
+<area shape="rect" coords="65,581,165,651" href="../EA6/EA1/EA2/EA112.htm" target="_self">
+<area shape="rect" coords="65,487,165,557" href="../EA6/EA1/EA2/EA113.htm" target="_self">
+<area shape="rect" coords="65,393,165,463" href="../EA6/EA1/EA2/EA111.htm" target="_self">
+<area shape="rect" coords="65,299,165,369" href="../EA6/EA1/EA2/EA110.htm" target="_self">
+<area shape="rect" coords="1080,173,1200,253" href="../EA6/EA1/EA2/EA109.htm" target="_self">
+<area shape="rect" coords="928,173,1048,253" href="../EA6/EA1/EA2/EA108.htm" target="_self">
+<area shape="rect" coords="776,173,896,253" href="../EA6/EA1/EA2/EA107.htm" target="_self">
+<area shape="rect" coords="624,173,744,253" href="../EA6/EA1/EA2/EA106.htm" target="_self">
+<area shape="rect" coords="472,173,592,253" href="../EA6/EA1/EA2/EA105.htm" target="_self">
+<area shape="rect" coords="320,175,440,255" href="../EA6/EA1/EA2/EA104.htm" target="_self">
+<area shape="rect" coords="168,174,288,254" href="../EA6/EA1/EA2/EA103.htm" target="_self">
+<area shape="rect" coords="16,173,136,253" href="../EA6/EA1/EA2/EA102.htm" target="_self">
+</MAP>
+ </div>
+	<!-- <div class="ObjectTitle">VH01. Principes : Motivation diagram</div> -->
+		<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<!-- REMOVE
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">19-9-2025 12:58:36</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">30-9-2025 14:17:43</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.3.x</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{FCBA0EEC-8E42-42ad-BD71-92B9A87C61B7}</td>
+		</tr>
+		-->
+		<!-- CUSTOM -->
+		<hr>
+		<td width="15%" class="ObjectDetailsTopic">Gemaakt:</td>
+			<td width="85%" class="ObjectDetailsValue">19-9-2025 12:58:36</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Aangepast:</td>
+			<td width="85%" class="ObjectDetailsValue">30-9-2025 14:17:43</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Auteur:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+	</table>
+	<!-- CUSTOM -->
+	<!-- <hr>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td class="ObjectDetailsTopic">Reactie:</td>
+			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+VH01. Principes&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
+		</tr>
+	<table> -->
+	<hr>
+	<!-- END CUSTOM -->
+	<!-- <div class="ObjectDetailsNotes">&lt;b&gt;Vereisten in hoofdstuk Twiin Principes&lt;/b&gt;&lt;br/&gt;Twiin-principes zijn door de Twiin-organisatie zelf vastgestelde richtlijnen en vangrails waarbinnen het architectuurontwerp moet blijven. Tijdens de doorontwikkeling van het afsprakenstelsel wordt steeds getoetst op conformiteit met deze principes (architectuurgovernance).&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Toetsing implicaties&lt;/b&gt;&lt;br/&gt;Wijzigingen binnen het afsprakenstelsel worden primair beoordeeld op hun impact op de Twiin-principes. Deze toetsing vindt zo vroeg mogelijk,&#160;&#160;plaats in het doorontwikkelproces en daarna regelmatig herhaald tot release. Het doel is om conformiteit te waarborgen of, indien strikt noodzakelijk, tijdelijke afwijkingen op een gecontroleerde manier te beheren.&lt;br/&gt;</div>
+ -->
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
