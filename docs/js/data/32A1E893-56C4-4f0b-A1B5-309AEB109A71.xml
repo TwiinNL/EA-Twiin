@@ -1,6 +1,6 @@
 tocTab[tocTab.length] = new Array("0.1", "1", "Toelichting werkomgeving", "EARoot/EA1/EA3.htm", "4.png", "", "", "{DD81C9CB-3AB3-4285-B847-2D40C26038FE}", "Package");
-tocTab[tocTab.length] = new Array("0.2", "1", "Architectuur databeschikbaarheid", "EARoot/EA2/EA18.htm", "4.png", "", "", "{01508081-B459-4b55-A3B6-65D8300CC8FF}", "Package");
-tocTab[tocTab.length] = new Array("0.3", "", "Architectuur samenwerkingsverband", "EARoot/EA3/EA19.htm", "4.png", "", "", "{C1FEFBCD-9502-453c-8F72-7A76E7A4E9CB}", "Package");
-tocTab[tocTab.length] = new Array("0.4", "1", "Architectuur Twiin Afsprakenselsel", "EARoot/EA4/EA66.htm", "4.png", "", "", "{CDA77458-5428-4e1a-A729-A533B630D7B7}", "Package");
-tocTab[tocTab.length] = new Array("0.5", "1", "Bouwblokken bibliotheek", "EARoot/EA5/EA76.htm", "4.png", "", "", "{C88119FB-CF71-4830-9661-75F1A574EF20}", "Package");
-tocTab[tocTab.length] = new Array("0.6", "1", "Elementen", "EARoot/EA6/EA77.htm", "4.png", "", "", "{C3E4B4A4-A434-4d1a-BCD9-D741CC1FBFB7}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Architectuur databeschikbaarheid", "EARoot/EA2/EA20.htm", "4.png", "", "", "{01508081-B459-4b55-A3B6-65D8300CC8FF}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "", "Architectuur samenwerkingsverband", "EARoot/EA3/EA21.htm", "4.png", "", "", "{C1FEFBCD-9502-453c-8F72-7A76E7A4E9CB}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Architectuur Twiin Afsprakenselsel", "EARoot/EA4/EA68.htm", "4.png", "", "", "{CDA77458-5428-4e1a-A729-A533B630D7B7}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "Bouwblokken bibliotheek", "EARoot/EA5/EA78.htm", "4.png", "", "", "{C88119FB-CF71-4830-9661-75F1A574EF20}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "Elementen", "EARoot/EA6/EA79.htm", "4.png", "", "", "{C3E4B4A4-A434-4d1a-BCD9-D741CC1FBFB7}", "Package");

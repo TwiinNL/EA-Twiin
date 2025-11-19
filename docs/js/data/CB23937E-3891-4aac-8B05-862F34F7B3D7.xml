@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.6.2.1", "1", "Zorgaanbieder Dienstverlening", "EARoot/EA6/EA2/EA1/EA283.htm", "4.png", "", "", "{1789D208-029A-4128-8209-D4606F082BB0}", "Package");
-tocTab[tocTab.length] = new Array("0.6.2.2", "", "Zorgaanbieder activiteiten", "EARoot/EA6/EA2/EA2/EA290.htm", "4.png", "", "", "{F1355DDB-FA2F-41ce-A2ED-3D0878708B37}", "Package");
-tocTab[tocTab.length] = new Array("0.6.2.3", "1", "Zorgaanbieder functies", "EARoot/EA6/EA2/EA3/EA291.htm", "4.png", "", "", "{958870BC-4EBC-4c26-BE17-6C955878E15F}", "Package");
-tocTab[tocTab.length] = new Array("0.6.2.4", "1", "Informatie objecten", "EARoot/EA6/EA2/EA4/EA296.htm", "4.png", "", "", "{CA09820E-A389-4759-A54B-6E1210D9C777}", "Package");
-tocTab[tocTab.length] = new Array("0.6.2.5", "1", "Vertrouwensfuncties", "EARoot/EA6/EA2/EA5/EA300.htm", "4.png", "", "", "{341CA101-181C-440b-B4AA-E7EC06BB34E6}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.1", "1", "Zorgaanbieder Dienstverlening", "EARoot/EA6/EA2/EA1/EA285.htm", "4.png", "", "", "{1789D208-029A-4128-8209-D4606F082BB0}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.2", "", "Zorgaanbieder activiteiten", "EARoot/EA6/EA2/EA2/EA292.htm", "4.png", "", "", "{F1355DDB-FA2F-41ce-A2ED-3D0878708B37}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.3", "1", "Zorgaanbieder functies", "EARoot/EA6/EA2/EA3/EA293.htm", "4.png", "", "", "{958870BC-4EBC-4c26-BE17-6C955878E15F}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.4", "1", "Informatie objecten", "EARoot/EA6/EA2/EA4/EA298.htm", "4.png", "", "", "{CA09820E-A389-4759-A54B-6E1210D9C777}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2.5", "1", "Vertrouwensfuncties", "EARoot/EA6/EA2/EA5/EA302.htm", "4.png", "", "", "{341CA101-181C-440b-B4AA-E7EC06BB34E6}", "Package");
 tocTab[tocTab.length] = new Array("0.6.2.6", "1", "Actoren", "EARoot/EA6/EA2/EA6/EA340.htm", "4.png", "", "", "{CA577E38-F5B6-49fd-A8DE-920008E50DDF}", "Package");
 tocTab[tocTab.length] = new Array("0.6.2.7", "1", "Rollen", "EARoot/EA6/EA2/EA7/EA344.htm", "4.png", "", "", "{184657FC-F6B4-443d-8076-2C5219E0E03A}", "Package");
 tocTab[tocTab.length] = new Array("0.6.2.8", "1", "Communicatiepatronen", "EARoot/EA6/EA2/EA8/EA352.htm", "4.png", "", "", "{D9159C36-4DCA-4808-B2A4-873270C66DBC}", "Package");
