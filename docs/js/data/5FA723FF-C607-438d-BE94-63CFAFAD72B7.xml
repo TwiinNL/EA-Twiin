@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.6.2.13:1", "", "GtK Beheerder", "EARoot/EA6/EA2/EA13/EA384.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7104", "0", "", "Class0","{23314511-6209-46ce-AD79-0494955FA67F}");
-tocTab[tocTab.length] = new Array("0.6.2.13:2", "", "GtK Leverancier", "EARoot/EA6/EA2/EA13/EA385.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7106", "0", "", "Class0","{677BBAB8-937E-44be-B330-B9D99FD39233}");
-tocTab[tocTab.length] = new Array("0.6.2.13:3", "", "Twiin Deelnemer", "EARoot/EA6/EA2/EA13/EA386.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7111", "0", "", "Class0","{EA08AA80-8E76-4205-AB1E-13FEEB4230DE}");
-tocTab[tocTab.length] = new Array("0.6.2.13:4", "", "Twiin Dienstverlener", "EARoot/EA6/EA2/EA13/EA387.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7113", "0", "", "Class0","{9FA584A0-4362-4956-A680-1352D184B32F}");
+tocTab[tocTab.length] = new Array("0.6.2.12:1", "", "GtK Beheerder", "EARoot/EA6/EA2/EA12/EA382.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7104", "0", "", "Class0","{23314511-6209-46ce-AD79-0494955FA67F}");
+tocTab[tocTab.length] = new Array("0.6.2.12:2", "", "GtK Leverancier", "EARoot/EA6/EA2/EA12/EA383.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7106", "0", "", "Class0","{677BBAB8-937E-44be-B330-B9D99FD39233}");
+tocTab[tocTab.length] = new Array("0.6.2.12:3", "", "Twiin Deelnemer", "EARoot/EA6/EA2/EA12/EA384.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7111", "0", "", "Class0","{EA08AA80-8E76-4205-AB1E-13FEEB4230DE}");
+tocTab[tocTab.length] = new Array("0.6.2.12:4", "", "Twiin Dienstverlener", "EARoot/EA6/EA2/EA12/EA385.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E7113", "0", "", "Class0","{9FA584A0-4362-4956-A680-1352D184B32F}");
