@@ -6,6 +6,6 @@ tocTab[tocTab.length] = new Array("0.2.1:5", "", "Ontvangen - vertrouwensfunctie
 tocTab[tocTab.length] = new Array("0.2.1:6", "", "Raadpleegbaar maken - vertrouwensfuncties", "EARoot/EA2/EA1/EA19.htm", "175.png", "551", "0", "", "Logical diagram0","{CBCB86AF-A1E8-4366-BE88-ECF443671D89}");
 tocTab[tocTab.length] = new Array("0.2.1:7", "", "Raadplegen - vertrouwensfuncties", "EARoot/EA2/EA1/EA21.htm", "175.png", "574", "0", "", "Logical diagram0","{D00691D9-B9D5-4f02-B466-009B30EE463E}");
 tocTab[tocTab.length] = new Array("0.2.1:8", "", "Databeschikbaarheid via digitale services", "EARoot/EA2/EA1/EA23.htm", "175.png", "571", "0", "", "Logical diagram0","{6C02B98F-BF10-4a78-AEF2-B9D3F3B9E7B5}");
-tocTab[tocTab.length] = new Array("0.2.1:9", "", "Push en Pull", "EARoot/EA2/EA1/EA25.htm", "175.png", "575", "0", "", "Logical diagram0","{78360CAF-993C-479a-88F5-E9168B366D40}");
+tocTab[tocTab.length] = new Array("0.2.1:9", "", "Push en Receive", "EARoot/EA2/EA1/EA25.htm", "175.png", "575", "0", "", "Logical diagram0","{78360CAF-993C-479a-88F5-E9168B366D40}");
 tocTab[tocTab.length] = new Array("0.2.1:10", "", "Notify en Notified Pull", "EARoot/EA2/EA1/EA27.htm", "175.png", "576", "0", "", "Logical diagram0","{C2CFF5A0-B1B1-49a5-9918-5020BA6A199F}");
 tocTab[tocTab.length] = new Array("0.2.1:11", "", "Expose en Pull", "EARoot/EA2/EA1/EA29.htm", "175.png", "577", "0", "", "Logical diagram0","{13FE5BE7-EF70-4f44-8E0D-E43B27FEC030}");
