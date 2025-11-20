@@ -1,8 +1,4 @@
-tocTab[tocTab.length] = new Array("0.2:1", "", "Databeschikbaarheid is dienstverlening", "EARoot/EA2/EA4.htm", "175.png", "549", "0", "", "Logical diagram0","{A0038CB6-D08B-4eb4-86C2-13595DB046E7}");
-tocTab[tocTab.length] = new Array("0.2:2", "", "Vertrouwensfuncties", "EARoot/EA2/EA6.htm", "175.png", "572", "0", "", "Logical diagram0","{D1A0C062-DFD5-4c66-8997-D81F4763F0BC}");
-tocTab[tocTab.length] = new Array("0.2:3", "", "Dossiervoering - vertrouwensfuncties", "EARoot/EA2/EA8.htm", "175.png", "552", "0", "", "Logical diagram0","{BF9269EB-E6D5-43ca-8B4F-79706ED2C839}");
-tocTab[tocTab.length] = new Array("0.2:4", "", "Verzenden - vertrouwensfuncties", "EARoot/EA2/EA10.htm", "175.png", "550", "0", "", "Logical diagram0","{5FA2A535-AE88-4726-A228-8502E16824ED}");
-tocTab[tocTab.length] = new Array("0.2:5", "", "Ontvangen - vertrouwensfuncties", "EARoot/EA2/EA12.htm", "175.png", "573", "0", "", "Logical diagram0","{80EE65B5-1631-40a1-8492-46F2F95F80E5}");
-tocTab[tocTab.length] = new Array("0.2:6", "", "Raadpleegbaar maken - vertrouwensfuncties", "EARoot/EA2/EA14.htm", "175.png", "551", "0", "", "Logical diagram0","{CBCB86AF-A1E8-4366-BE88-ECF443671D89}");
-tocTab[tocTab.length] = new Array("0.2:7", "", "Raadplegen - vertrouwensfuncties", "EARoot/EA2/EA16.htm", "175.png", "574", "0", "", "Logical diagram0","{D00691D9-B9D5-4f02-B466-009B30EE463E}");
-tocTab[tocTab.length] = new Array("0.2:8", "", "Databeschikbaarheid via digitale services", "EARoot/EA2/EA18.htm", "175.png", "571", "0", "", "Logical diagram0","{6C02B98F-BF10-4a78-AEF2-B9D3F3B9E7B5}");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "Databeschikbaarheid - Algemeen", "EARoot/EA2/EA1/EA31.htm", "4.png", "", "", "{326CC603-27B0-443f-AFBF-B354D1EECECE}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2", "", "Databeschikbaarheid - Algemeen geldende kaders", "EARoot/EA2/EA2/EA32.htm", "4.png", "", "", "{F5DDA94F-BFEA-4e58-AE81-8AD2E4719A0D}", "Package");
+tocTab[tocTab.length] = new Array("0.2.3", "", "Databeschikbaarheid - Twiin specifieke afspraken", "EARoot/EA2/EA3/EA33.htm", "4.png", "", "", "{5B106BC5-DD23-4351-B977-82678A923960}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4", "", "Databeschikbaarheid - EHDS", "EARoot/EA2/EA4/EA34.htm", "4.png", "", "", "{B7737C0D-484A-4a8a-8899-B336DB3ABACA}", "Package");
