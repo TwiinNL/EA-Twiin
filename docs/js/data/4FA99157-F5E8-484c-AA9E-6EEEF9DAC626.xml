@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.6.5.3:1", "", "Activiteit", "EARoot/EA6/EA5/EA3/EA679.htm", "9F0DDA8A-5_ArchiMate_BusinessProcess.png", "E6959", "0", "", "Activity0","{D33A075D-7362-412d-8708-67BC2B061A54}");
-tocTab[tocTab.length] = new Array("0.6.5.3:2", "", "Actor", "EARoot/EA6/EA5/EA3/EA680.htm", "9F0DDA8A-5_ArchiMate_BusinessActor.png", "E6960", "0", "", "Class0","{B811F90B-0D94-4192-B6F3-A0CF096FB357}");
-tocTab[tocTab.length] = new Array("0.6.5.3:3", "", "Dienst", "EARoot/EA6/EA5/EA3/EA681.htm", "9F0DDA8A-5_ArchiMate_BusinessService.png", "E6957", "0", "", "Activity0","{C3DC1241-4809-497a-9535-33E92E3EE116}");
-tocTab[tocTab.length] = new Array("0.6.5.3:4", "", "Functie", "EARoot/EA6/EA5/EA3/EA682.htm", "9F0DDA8A-5_ArchiMate_BusinessFunction.png", "E6958", "0", "", "Activity0","{4C2B755E-A5EA-494f-887F-422AF6CCBBE8}");
-tocTab[tocTab.length] = new Array("0.6.5.3:5", "", "Informatie (object)", "EARoot/EA6/EA5/EA3/EA683.htm", "9F0DDA8A-5_ArchiMate_BusinessObject.png", "E6962", "0", "", "Class0","{CB607B11-CC58-40be-A6E3-07228D2EE2F7}");
-tocTab[tocTab.length] = new Array("0.6.5.3:6", "", "Product", "EARoot/EA6/EA5/EA3/EA684.htm", "9F0DDA8A-5_ArchiMate_Product.png", "E6963", "0", "", "Class0","{DB34C4AD-B728-48d4-B66A-6BA5CD673099}");
-tocTab[tocTab.length] = new Array("0.6.5.3:7", "", "Rol", "EARoot/EA6/EA5/EA3/EA685.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E6961", "0", "", "Class0","{D9769F3E-6BE1-49ae-B187-C8D81EC8573D}");
+tocTab[tocTab.length] = new Array("0.6.5.3:1", "", "Activiteit", "EARoot/EA6/EA5/EA3/EA685.htm", "9F0DDA8A-5_ArchiMate_BusinessProcess.png", "E6959", "0", "", "Activity0","{D33A075D-7362-412d-8708-67BC2B061A54}");
+tocTab[tocTab.length] = new Array("0.6.5.3:2", "", "Actor", "EARoot/EA6/EA5/EA3/EA686.htm", "9F0DDA8A-5_ArchiMate_BusinessActor.png", "E6960", "0", "", "Class0","{B811F90B-0D94-4192-B6F3-A0CF096FB357}");
+tocTab[tocTab.length] = new Array("0.6.5.3:3", "", "Dienst", "EARoot/EA6/EA5/EA3/EA687.htm", "9F0DDA8A-5_ArchiMate_BusinessService.png", "E6957", "0", "", "Activity0","{C3DC1241-4809-497a-9535-33E92E3EE116}");
+tocTab[tocTab.length] = new Array("0.6.5.3:4", "", "Functie", "EARoot/EA6/EA5/EA3/EA688.htm", "9F0DDA8A-5_ArchiMate_BusinessFunction.png", "E6958", "0", "", "Activity0","{4C2B755E-A5EA-494f-887F-422AF6CCBBE8}");
+tocTab[tocTab.length] = new Array("0.6.5.3:5", "", "Informatie (object)", "EARoot/EA6/EA5/EA3/EA689.htm", "9F0DDA8A-5_ArchiMate_BusinessObject.png", "E6962", "0", "", "Class0","{CB607B11-CC58-40be-A6E3-07228D2EE2F7}");
+tocTab[tocTab.length] = new Array("0.6.5.3:6", "", "Product", "EARoot/EA6/EA5/EA3/EA690.htm", "9F0DDA8A-5_ArchiMate_Product.png", "E6963", "0", "", "Class0","{DB34C4AD-B728-48d4-B66A-6BA5CD673099}");
+tocTab[tocTab.length] = new Array("0.6.5.3:7", "", "Rol", "EARoot/EA6/EA5/EA3/EA691.htm", "9F0DDA8A-5_ArchiMate_BusinessRole.png", "E6961", "0", "", "Class0","{D9769F3E-6BE1-49ae-B187-C8D81EC8573D}");
