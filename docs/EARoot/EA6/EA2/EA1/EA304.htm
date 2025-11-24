@@ -102,7 +102,7 @@
 	<!-- <span class="ObjectTitle">Raadpleegbaar maken van gezondheidsgegevens  : Public  &lt;&lt;ArchiMate_BusinessService&gt;&gt; BusinessService</span> -->
 	<!-- CUSTOM -->
 	<span class="ObjectTitle">Raadpleegbaar maken van gezondheidsgegevens</span>
-	<div class="ObjectDetailsNotes">Bij het raadplegen van gezondheidsgegevens neemt een zorgaanbieder het initiatief om gegevens te raadplegen uit het elektronisch dossier van een cli&#235;nt waarvan hij of zij niet de dossierhouder is. Dit gebeurt uitsluitend indien daarvoor een geldige grondslag bestaat. De gegevens moeten hiervoor raadpleegbaar gemaakt worden door de dossierhoudende zorgaanbieder.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Gegevens moeten raadpleegbaar gemaakt worden door de dossierhoudende zorgaanbieder voordat deze geraadpleegd kunnen worden.&lt;br/&gt;</div>
 
 	<hr>
 	<!-- END CUSTOM -->
@@ -114,7 +114,7 @@
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">6-11-2025 09:37:08</td>
+			<td class="ObjectDetailsValue">24-11-2025 13:57:06</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -177,7 +177,7 @@
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Gewijzigd:</td>
-			<td class="ObjectDetailsValue">6-11-2025 09:37:08</td>
+			<td class="ObjectDetailsValue">24-11-2025 13:57:06</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Komt voor in:</td>
@@ -200,7 +200,7 @@
 	</table> -->
 	<hr>
 	<!-- END CUSTOM -->
-	<!-- <div class="ObjectDetailsNotes">Bij het raadplegen van gezondheidsgegevens neemt een zorgaanbieder het initiatief om gegevens te raadplegen uit het elektronisch dossier van een cli&#235;nt waarvan hij of zij niet de dossierhouder is. Dit gebeurt uitsluitend indien daarvoor een geldige grondslag bestaat. De gegevens moeten hiervoor raadpleegbaar gemaakt worden door de dossierhoudende zorgaanbieder.&lt;br/&gt;</div>
+	<!-- <div class="ObjectDetailsNotes">Gegevens moeten raadpleegbaar gemaakt worden door de dossierhoudende zorgaanbieder voordat deze geraadpleegd kunnen worden.&lt;br/&gt;</div>
  -->	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
@@ -208,6 +208,7 @@
 			<li onClick="toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
 		<div class="ItemBody" id="AssociationsToTable">
 			<table class="Table ea_table">
@@ -228,7 +229,7 @@
 						To
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../EA4/EA367.htm">«ArchiMate_BusinessRole» Dossier raadpleger</a>
+						<a href="EA300.htm">«ArchiMate_BusinessService» Digitale dossiervoering</a>
 					</td>
 				</tr>				<tr>
 					<td width="45%" class="TableRow" valign="top">
@@ -241,7 +242,7 @@
 						To
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="EA300.htm">«ArchiMate_BusinessService» Digitale dossiervoering</a>
+						<a href="../EA4/EA378.htm">«ArchiMate_BusinessRole» Dossier raadpleger</a>
 					</td>
 				</tr>
 			</table>
@@ -266,7 +267,7 @@
 						From
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../../EA4/EA2/EA637.htm">«ArchiMate_Grouping» Raadpleeg varianten</a>
+						<a href="../../EA4/EA2/EA648.htm">«ArchiMate_Grouping» Raadpleeg varianten</a>
 					</td>
 				</tr>				<tr>
 					<td width="45%" class="TableRow" valign="top">
@@ -279,7 +280,7 @@
 						From
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../EA4/EA364.htm">«ArchiMate_BusinessRole» Dossier beschikbaar steller</a>
+						<a href="../EA4/EA375.htm">«ArchiMate_BusinessRole» Dossier beschikbaar steller</a>
 					</td>
 				</tr>				<tr>
 					<td width="45%" class="TableRow" valign="top">
@@ -292,7 +293,7 @@
 						From
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="../../EA4/EA1/EA633.htm">«ArchiMate_Grouping» Zorgaanbieder Dienstverlening</a>
+						<a href="../../EA4/EA1/EA644.htm">«ArchiMate_Grouping» Zorgaanbieder Dienstverlening</a>
 					</td>
 				</tr>
 			</table>
@@ -317,7 +318,7 @@
 						To
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="EA302.htm">Opvragen gezondheidsgegevens</a>
+						<a href="EA302.htm">Raadplegen gezondheidsgegevens</a>
 					</td>
 				</tr>
 			</table>
@@ -342,7 +343,7 @@
 						From
 					</td>
 					<td width="25%" class="TableRow" valign="top">
-						<a href="EA302.htm">Opvragen gezondheidsgegevens</a>
+						<a href="EA302.htm">Raadplegen gezondheidsgegevens</a>
 					</td>
 				</tr>
 			</table>
@@ -376,7 +377,149 @@
 
 
 			</table>
-		</div>	</div>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="45%" class="TableHeading">Notities</td>
+					<td width="25%" class="TableHeading">Type relatie</td>
+					<td width="5%" class="TableHeading">Richting</td>
+					<td width="25%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						&nbsp;
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Realization&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA342.htm">«ArchiMate_BusinessFunction» Behandelrelatie  zorgverlener - cliënt t.b.v. raadpleegbaar maken gezondheidsgegevens</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						&nbsp;
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Realization&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA372.htm">«ArchiMate_BusinessFunction» Identificatie raadplegende zorgverlener</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						&nbsp;
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Realization&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA370.htm">«ArchiMate_BusinessFunction» Identificatie zorgverlener t.b.v. raadpleegbaar maken gezondheidsgegevens</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						&nbsp;
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Realization&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA347.htm">«ArchiMate_BusinessFunction»  Toestemming van cliënt voor raadpleegbaar maken gezondheidsgegevens</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						&nbsp;
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Realization&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA360.htm">«ArchiMate_BusinessFunction» Transparantie raadpleging</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						&nbsp;
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Realization&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA359.htm">«ArchiMate_BusinessFunction» Transparantie raadpleegbaar maken gezondheidsgegevens</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						&nbsp;
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Realization&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA349.htm">«ArchiMate_BusinessFunction» Controle toestemming voor raadpleging</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						&nbsp;
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Realization&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA354.htm">«ArchiMate_BusinessFunction» Logging raadpleging</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						&nbsp;
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Realization&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA353.htm">«ArchiMate_BusinessFunction» Logging raadpleegbaar maken gezondheidsgegevens</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						&nbsp;
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Realization&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						From
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA366.htm">«ArchiMate_BusinessFunction» Identificatie raadplegende zorgaanbieder</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+	</div>
  </div>
  </td>
 				</tr>
