@@ -1,4 +1,5 @@
-tocTab[tocTab.length] = new Array("0.2.1", "1", "Databeschikbaarheid - Algemeen", "EARoot/EA2/EA1/EA37.htm", "4.png", "", "", "{326CC603-27B0-443f-AFBF-B354D1EECECE}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2", "", "Databeschikbaarheid - Algemeen geldende kaders", "EARoot/EA2/EA2/EA38.htm", "4.png", "", "", "{F5DDA94F-BFEA-4e58-AE81-8AD2E4719A0D}", "Package");
-tocTab[tocTab.length] = new Array("0.2.3", "", "Databeschikbaarheid - Twiin specifieke afspraken", "EARoot/EA2/EA3/EA39.htm", "4.png", "", "", "{5B106BC5-DD23-4351-B977-82678A923960}", "Package");
-tocTab[tocTab.length] = new Array("0.2.4", "", "Databeschikbaarheid - EHDS", "EARoot/EA2/EA4/EA40.htm", "4.png", "", "", "{B7737C0D-484A-4a8a-8899-B336DB3ABACA}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "Databeschikbaarheid - Algemeen", "EARoot/EA2/EA1/EA38.htm", "4.png", "", "", "{326CC603-27B0-443f-AFBF-B354D1EECECE}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2", "", "Databeschikbaarheid - Algemeen geldende kaders", "EARoot/EA2/EA2/EA39.htm", "4.png", "", "", "{F5DDA94F-BFEA-4e58-AE81-8AD2E4719A0D}", "Package");
+tocTab[tocTab.length] = new Array("0.2.3", "", "Databeschikbaarheid - Twiin", "EARoot/EA2/EA3/EA40.htm", "4.png", "", "", "{BC6AE434-5B42-4ead-85BF-AFA6EE643055}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4", "", "Databeschikbaarheid - Twiin specifieke afspraken", "EARoot/EA2/EA4/EA41.htm", "4.png", "", "", "{5B106BC5-DD23-4351-B977-82678A923960}", "Package");
+tocTab[tocTab.length] = new Array("0.2.5", "", "Databeschikbaarheid - EHDS", "EARoot/EA2/EA5/EA42.htm", "4.png", "", "", "{B7737C0D-484A-4a8a-8899-B336DB3ABACA}", "Package");
