@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Vertrouwensfunctie Identificatie</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<!-- START: TOOLTIP CODE -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.min.js"></script>
+<!-- EIND: TOOLTIP CODE -->
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+		{			
+			// START: TOOLTIP CODE
+			$("area").mouseover(function() { mapRectangleMouseOver(this); } );
+			$("area").mouseout(function() { mapRectangleMouseOut(this); } );
+			// EIND: TOOLTIP CODE
+			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1>Twiin Enterprise Architectuur werkomgeving</h1>
+			<!-- <img class="header_image" src="../../../../images/Twiin.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/Twiin.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">EA-Twiin</a> / <a href="../../EA119.htm">Elementen</a> / <a href="../EA302.htm">Business domein</a> / <a href="EA338.htm">Vertrouwensfuncties</a> / <a href="EA339.htm">Vertrouwensfunctie Identificatie</a> / <a href="EA330.htm">Vertrouwensfunctie Identificatie</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<!-- <div class="projectBrowserTitle">Project: </div> -->
+						<div class="projectBrowserTitle"></div>
+						<ul>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA330.htm">Vertrouwensfunctie Identificatie</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA346.htm">Identificatie Cliënt</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA347.htm">Identificatie Zorgaanbieder</a></li>
+<li><img src="../../../../images/21.png" alt="Activity"/> <a href="EA348.htm">Identificatie Zorgverlener</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<!-- CUSTOM -->
+	<div class=previewPanel></div>
+	<div class="ObjectTitle">Vertrouwensfunctie Identificatie</div>
+	
+	<hr>
+	<!-- END CUSTOM -->
+	<div class=diagram_image> 
+<img src="EA331.png" usemap="#EA331" border="0" />
+
+<MAP NAME="EA331">
+<area shape="rect" coords="1360,370,1480,450" href="EA381.htm" target="_self">
+<area shape="rect" coords="1210,370,1330,450" href="EA380.htm" target="_self">
+<area shape="rect" coords="1060,370,1180,450" href="EA379.htm" target="_self">
+<area shape="rect" coords="910,370,1030,450" href="EA378.htm" target="_self">
+<area shape="rect" coords="760,370,880,450" href="EA377.htm" target="_self">
+<area shape="rect" coords="610,370,730,450" href="EA376.htm" target="_self">
+<area shape="rect" coords="460,370,580,450" href="EA375.htm" target="_self">
+<area shape="rect" coords="310,370,430,450" href="EA374.htm" target="_self">
+<area shape="rect" coords="160,370,280,450" href="EA373.htm" target="_self">
+<area shape="rect" coords="10,370,130,450" href="EA372.htm" target="_self">
+<area shape="rect" coords="1000,190,1120,270" href="EA348.htm" target="_self">
+<area shape="rect" coords="590,190,710,270" href="EA347.htm" target="_self">
+<area shape="rect" coords="160,190,280,270" href="EA346.htm" target="_self">
+<area shape="rect" coords="530,10,650,90" href="EA339.htm" target="_self">
+</MAP>
+ </div>
+	<!-- <div class="ObjectTitle">Vertrouwensfunctie Identificatie : Business Layer diagram</div> -->
+		<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<!-- REMOVE
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">20-11-2025 10:15:30</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">25-11-2025 08:21:32</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{F313EA1B-1B9C-4c30-99F4-6D40F17B787F}</td>
+		</tr>
+		-->
+		<!-- CUSTOM -->
+		<hr>
+		<td width="15%" class="ObjectDetailsTopic">Gemaakt:</td>
+			<td width="85%" class="ObjectDetailsValue">20-11-2025 10:15:30</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Aangepast:</td>
+			<td width="85%" class="ObjectDetailsValue">25-11-2025 08:21:32</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Auteur:</td>
+			<td class="ObjectDetailsValue">Marcel Schrauwen</td>
+		</tr>
+	</table>
+	<!-- CUSTOM -->
+	<!-- <hr>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td class="ObjectDetailsTopic">Reactie:</td>
+			<td class="ObjectDetailsValue"><a href="https://github.com/MarcelSchrauwen/ea-gis/issues/new?title=Reactie:+Vertrouwensfunctie Identificatie&body=Het+helpt+als+je+hier+een+link+naar+het+onderwerp+toevoegt.">New Github Issue</a></td>
+		</tr>
+	<table> -->
+	<hr>
+	<!-- END CUSTOM -->
+	<!--  -->
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>

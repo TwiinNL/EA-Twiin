@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.5:1", "", "Motivatie bouwblokken", "EARoot/EA5/EA92.htm", "175.png", "542", "0", "", "Logical diagram0","{25FE31BF-6B5B-46bc-BCEC-F12318384798}");
-tocTab[tocTab.length] = new Array("0.5:2", "", "Organisatorische bouwblokken", "EARoot/EA5/EA94.htm", "175.png", "545", "0", "", "Logical diagram0","{0F50912F-06ED-4ef3-8FF5-7DBC2F3EAAB8}");
-tocTab[tocTab.length] = new Array("0.5:3", "", "Applicatie & Data bouwblokken", "EARoot/EA5/EA96.htm", "175.png", "546", "0", "", "Logical diagram0","{1A305C0F-D5AC-4646-BE3E-3564EF5CCF13}");
-tocTab[tocTab.length] = new Array("0.5:4", "", "Netwerk bouwblokken", "EARoot/EA5/EA98.htm", "175.png", "547", "0", "", "Logical diagram0","{83EEF96A-C799-4098-B09C-27FDD2B6F83E}");
+tocTab[tocTab.length] = new Array("0.5:1", "", "Motivatie bouwblokken", "EARoot/EA5/EA110.htm", "175.png", "542", "0", "", "Logical diagram0","{25FE31BF-6B5B-46bc-BCEC-F12318384798}");
+tocTab[tocTab.length] = new Array("0.5:2", "", "Organisatorische bouwblokken", "EARoot/EA5/EA112.htm", "175.png", "545", "0", "", "Logical diagram0","{0F50912F-06ED-4ef3-8FF5-7DBC2F3EAAB8}");
+tocTab[tocTab.length] = new Array("0.5:3", "", "Applicatie & Data bouwblokken", "EARoot/EA5/EA114.htm", "175.png", "546", "0", "", "Logical diagram0","{1A305C0F-D5AC-4646-BE3E-3564EF5CCF13}");
+tocTab[tocTab.length] = new Array("0.5:4", "", "Netwerk bouwblokken", "EARoot/EA5/EA116.htm", "175.png", "547", "0", "", "Logical diagram0","{83EEF96A-C799-4098-B09C-27FDD2B6F83E}");

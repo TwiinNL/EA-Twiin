@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.6.5.1", "1", "Motivatie elementen", "EARoot/EA6/EA5/EA1/EA690.htm", "4.png", "", "", "{1FAC9DAB-6E58-44be-855A-0174609B3396}", "Package");
-tocTab[tocTab.length] = new Array("0.6.5.2", "", "Strategie elementen", "EARoot/EA6/EA5/EA2/EA694.htm", "4.png", "", "", "{DD512FB3-1296-4d3c-BBBD-461163E1248F}", "Package");
-tocTab[tocTab.length] = new Array("0.6.5.3", "1", "Business elementen", "EARoot/EA6/EA5/EA3/EA695.htm", "4.png", "", "", "{4FA99157-F5E8-484c-AA9E-6EEEF9DAC626}", "Package");
-tocTab[tocTab.length] = new Array("0.6.5.4", "1", "Applicatie & Data elementen", "EARoot/EA6/EA5/EA4/EA703.htm", "4.png", "", "", "{3DADF631-9CDE-43e2-A48B-B8DAB2DF2133}", "Package");
-tocTab[tocTab.length] = new Array("0.6.5.5", "1", "Netwerk elementen", "EARoot/EA6/EA5/EA5/EA710.htm", "4.png", "", "", "{7BC50DC1-6A7C-4656-80F2-0226DDFB8E35}", "Package");
-tocTab[tocTab.length] = new Array("0.6.5.6", "1", "Relaties", "EARoot/EA6/EA5/EA6/EA716.htm", "4.png", "", "", "{0F92D181-C8C4-403b-AEA6-9495FBB08584}", "Package");
-tocTab[tocTab.length] = new Array("0.6.5.7", "1", "Groepen", "EARoot/EA6/EA5/EA7/EA727.htm", "4.png", "", "", "{1DE01D57-6C2D-4656-B67A-175F8E50BAC4}", "Package");
+tocTab[tocTab.length] = new Array("0.6.5.1", "1", "Waarom EA-Twiin", "EARoot/EA6/EA5/EA1/EA721.htm", "4.png", "", "", "{5B45939D-8434-48ac-8105-4EE9C03A4F9A}", "Package");
+tocTab[tocTab.length] = new Array("0.6.5.2", "1", "Motivatie elementen", "EARoot/EA6/EA5/EA2/EA732.htm", "4.png", "", "", "{1FAC9DAB-6E58-44be-855A-0174609B3396}", "Package");
+tocTab[tocTab.length] = new Array("0.6.5.3", "1", "Business elementen", "EARoot/EA6/EA5/EA3/EA736.htm", "4.png", "", "", "{4FA99157-F5E8-484c-AA9E-6EEEF9DAC626}", "Package");
+tocTab[tocTab.length] = new Array("0.6.5.4", "1", "Applicatie & Data elementen", "EARoot/EA6/EA5/EA4/EA744.htm", "4.png", "", "", "{3DADF631-9CDE-43e2-A48B-B8DAB2DF2133}", "Package");
+tocTab[tocTab.length] = new Array("0.6.5.5", "1", "Netwerk elementen", "EARoot/EA6/EA5/EA5/EA751.htm", "4.png", "", "", "{7BC50DC1-6A7C-4656-80F2-0226DDFB8E35}", "Package");
+tocTab[tocTab.length] = new Array("0.6.5.6", "1", "Relaties", "EARoot/EA6/EA5/EA6/EA757.htm", "4.png", "", "", "{0F92D181-C8C4-403b-AEA6-9495FBB08584}", "Package");
+tocTab[tocTab.length] = new Array("0.6.5.7", "1", "Groepen", "EARoot/EA6/EA5/EA7/EA768.htm", "4.png", "", "", "{1DE01D57-6C2D-4656-B67A-175F8E50BAC4}", "Package");

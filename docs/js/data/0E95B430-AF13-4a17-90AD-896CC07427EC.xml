@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.6.3.1", "1", "Applicatie services", "EARoot/EA6/EA3/EA1/EA580.htm", "4.png", "", "", "{F2E33F8D-ECB6-4df2-99BA-D9F07D103BC9}", "Package");
-tocTab[tocTab.length] = new Array("0.6.3.2", "1", "Applicatie (componenten)", "EARoot/EA6/EA3/EA2/EA591.htm", "4.png", "", "", "{75990A73-8204-4973-9949-C9CB47A409D8}", "Package");
-tocTab[tocTab.length] = new Array("0.6.3.3", "1", "Communicatiepatronen", "EARoot/EA6/EA3/EA3/EA602.htm", "4.png", "", "", "{9FFEB1D0-C9AC-4efd-8564-4A618A1FE629}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.1", "1", "Applicatie services", "EARoot/EA6/EA3/EA1/EA611.htm", "4.png", "", "", "{F2E33F8D-ECB6-4df2-99BA-D9F07D103BC9}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.2", "1", "Applicatie (componenten)", "EARoot/EA6/EA3/EA2/EA622.htm", "4.png", "", "", "{75990A73-8204-4973-9949-C9CB47A409D8}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3.3", "1", "Communicatiepatronen", "EARoot/EA6/EA3/EA3/EA633.htm", "4.png", "", "", "{9FFEB1D0-C9AC-4efd-8564-4A618A1FE629}", "Package");

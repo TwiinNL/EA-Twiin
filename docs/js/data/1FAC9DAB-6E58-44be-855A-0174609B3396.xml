@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.6.5.1:1", "", "Doelstelling", "EARoot/EA6/EA5/EA1/EA691.htm", "9F0DDA8A-5_ArchiMate_Goal.png", "E7029", "0", "", "Class0","{2E00E8C5-3AB5-4bfb-ACE3-6C995F1ECCD5}");
-tocTab[tocTab.length] = new Array("0.6.5.1:2", "", "Principe", "EARoot/EA6/EA5/EA1/EA692.htm", "9F0DDA8A-5_ArchiMate_Principle.png", "E6950", "0", "", "Class0","{A3C90228-66F3-4e10-9688-51E01B92DE99}");
-tocTab[tocTab.length] = new Array("0.6.5.1:3", "", "Vereiste", "EARoot/EA6/EA5/EA1/EA693.htm", "9F0DDA8A-5_ArchiMate_Requirement.png", "E6951", "0", "", "Class0","{32E1820D-C806-4637-A4A5-3FC7AD2E3872}");
+tocTab[tocTab.length] = new Array("0.6.5.2:1", "", "Doelstelling", "EARoot/EA6/EA5/EA2/EA733.htm", "9F0DDA8A-5_ArchiMate_Goal.png", "E7029", "0", "", "Class0","{2E00E8C5-3AB5-4bfb-ACE3-6C995F1ECCD5}");
+tocTab[tocTab.length] = new Array("0.6.5.2:2", "", "Principe", "EARoot/EA6/EA5/EA2/EA734.htm", "9F0DDA8A-5_ArchiMate_Principle.png", "E6950", "0", "", "Class0","{A3C90228-66F3-4e10-9688-51E01B92DE99}");
+tocTab[tocTab.length] = new Array("0.6.5.2:3", "", "Vereiste", "EARoot/EA6/EA5/EA2/EA735.htm", "9F0DDA8A-5_ArchiMate_Requirement.png", "E6951", "0", "", "Class0","{32E1820D-C806-4637-A4A5-3FC7AD2E3872}");
